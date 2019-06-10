@@ -31,3 +31,16 @@ console.log(Swapnil.getFullName()); // Output Swapnil Shinde
 console.log(Swapnil.getBio()); // Output Web Developer
 
 console.log(Swapnil.getAllDetails()); // Output My name is Swapnil Shinde. My age is 19. My college is SIES, I am Web Developer.
+
+console.log(Swapnil); // This returns the object only 
+/*
+  Output
+
+Student {
+  firstName: 'Swapnil',
+  lastName: 'Shinde',
+  age: 19,
+  college: 'SIES',
+  bio: 'Web Developer' 
+}
+*/
