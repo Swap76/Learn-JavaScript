@@ -6,3 +6,5 @@ functions
 arrays
 objects
 this
+classes
+inheritance
