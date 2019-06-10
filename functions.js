@@ -13,3 +13,17 @@ function Add (a,b) { // Here We have taken 2 Arguments a and b
 
 console.log(Add(10,5)); // This Calls the function 
 // We have to directly pass the arguments in function call
+
+// Functions which dont have name are called Anonymous this should be assined to a perticular variable 
+let helpFast = function (){
+  return("Fast Fast");
+}
+console.log(helpFast());
+// Output Fast Fast
+
+let helpVeryFast = () => {
+  return("Very Fast");
+}
+
+console.log(helpVeryFast());
+// Output Very Fast

@@ -5,3 +5,4 @@ stringOperation
 functions
 arrays
 objects
+this
