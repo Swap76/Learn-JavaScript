@@ -1,0 +1,8 @@
+Create object of student have his details of firstname lastname age college bio
+
+We want his fullname bio all details using normal functions
+
+
+Create class of student take his details of firstname lastname age college bio
+
+We want his fullname bio all details using class methods

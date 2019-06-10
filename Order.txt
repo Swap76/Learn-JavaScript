@@ -1,5 +1,7 @@
 This file states the order of modules you should be learning according to get most out of it:-
 
+Day 1
+
 variables
 stringOperation
 functions
@@ -8,3 +10,6 @@ objects
 this
 classes
 inheritance
+Exercise 1
+exercise 1 using object
+exercise 1 using classes

@@ -1,3 +1,0 @@
-Create class of student take his details of firstname lastname age college bio
-
-We want his fullnaem bio all details
