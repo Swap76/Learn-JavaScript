@@ -48,3 +48,14 @@ console.log(objectWithFunction);
 // Output { name: 'Swapnil', rollno: 76, getfull: [Function: getfull] }
 
 objectWithFunction.getfull() // Output Swapnil 76
+
+let canAddValue = { // This is normal object having 2 keys name and rollno
+  name: "Swapnil",
+  rollno: 76,
+}
+
+// We can add the keys we want any time into the object by directly assigning value to it 
+canAddValue.branch = "Computer";
+
+console.log(canAddValue);
+// Output { name: 'Swapnil', rollno: 76, branch: 'Computer' }
