@@ -1,3 +1,6 @@
 arrowFunction
 destructuring
 spread and rest
+timerFunction
+eventloop
+promises
