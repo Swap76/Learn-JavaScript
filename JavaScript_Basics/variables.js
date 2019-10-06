@@ -5,4 +5,4 @@ let a = "Swapnil"; // New type introdued in ES6. Value of let can change any tim
 
 const pi = 3.14;// New type introdued in ES6. Value of pi now cannot be changed as this is defined as const.
 
-var b = 26;// This is Depricated as this creates many probles in future.
+var b = 26;// This is deprecated as this creates many problems in future.
