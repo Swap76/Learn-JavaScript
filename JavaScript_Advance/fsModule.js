@@ -1,8 +1,8 @@
-// Fs is a inbuild function in nodejs to perfom operations on files
+// Fs is a inbuilt function in nodejs to perform operations on files
 
 // There are always two ways to do fs operation as sync and async 
 
-// Fs library sends data event continously in this case event emmiter comes into picture
+// Fs library sends data event continuously in this case event emitter comes into picture
 
 // For importing the fs module we have following syntax
 const fs = require('fs');
@@ -20,7 +20,7 @@ content.on('open',() => {
   console.log("File opend for reading");
 });
 
-// Here we are listning to the event called data which will be called when data is present
+// Here we are listening to the event called data which will be called when data is present
 content.on('data', (data) => {
   console.log(data);
 });
@@ -32,7 +32,7 @@ content.on('close',() => {
 
 // Output is going to be 
 /*
-File opend for reading
+File opened for reading
 arrowFunction
 destructuring
 spread and rest

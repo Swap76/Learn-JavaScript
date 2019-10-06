@@ -1,6 +1,6 @@
 let marks = [1,2,3,4,5,6,7,8,9]; // Array Declearation
 
-// If we want 1 to 3 as diffrent variables and 4 to 9 as full array then in such cases we use "rest" operator
+// If we want 1 to 3 as different variables and 4 to 9 as full array then in such cases we use "rest" operator
 
 let [first, second, third, ...remaining] = marks;
 
@@ -15,7 +15,7 @@ let a = {
   college : "SIES"
 };
 
-let {name ,age, ...unwanted} = a; // Here in unwanted all key and values expect the name and age will come this is diffrent than arrays
+let {name ,age, ...unwanted} = a; // Here in unwanted all key and values expect the name and age will come this is different than arrays
 
 console.log(unwanted);// Output { branch: 'Comps', college: 'SIES' }
 
@@ -26,7 +26,7 @@ let array1 = [1,2,3,4,5,6];
 
 let array2 = [6,7,8,9,10];
 
-let combinedArray  = [...array1, ...array2]; // Here "..." are considerd as spread operation we are spreading the two arrays into one
+let combinedArray  = [...array1, ...array2]; // Here "..." are considered as spread operation we are spreading the two arrays into one
 
 console.log(combinedArray); 
 /* Output 

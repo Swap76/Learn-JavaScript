@@ -1,4 +1,4 @@
-// common functions are combined in a class to have less repeatition in code 
+// common functions are combined in a class to have less repetition in code 
 
 class Animals { // Animal class is created where the legs are defined 4
   constructor(){
