@@ -1,2 +1,2 @@
-# ReactJS
-This repository is for beginners to start learning ReactJS from Scratch
+# Javascript 
+This repository is for beginners to start learning Javascript from Scratch
