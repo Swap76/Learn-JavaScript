@@ -1,4 +1,4 @@
-// promises promise the nodejs main thread that i'm going to come after doing a perticular task
+// promises promise the nodejs main thread that i'm going to come after doing a particular task
 
 let a = new Promise ((resolve, reject) => { // This is a empty promise
   // resolve will only be called if there is data to return like resolve(data);

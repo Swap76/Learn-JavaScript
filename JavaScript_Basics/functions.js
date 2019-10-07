@@ -1,5 +1,5 @@
 function helpGST () { // This way you can write functions in JS 
-  // There is no requirement of specifing the return type of function
+  // There is no requirement of specifying the return type of function
   console.log("Hii GST");
 }
 // Function is written to do a specific task many types in program. 
@@ -14,7 +14,7 @@ function Add (a,b) { // Here We have taken 2 Arguments a and b
 console.log(Add(10,5)); // This Calls the function 
 // We have to directly pass the arguments in function call
 
-// Functions which dont have name are called Anonymous this should be assined to a perticular variable 
+// Functions which don't have name are called Anonymous this should be assigned to a particular variable 
 let helpFast = function (){
   return("Fast Fast");
 }

@@ -1,4 +1,4 @@
-// setTimeout setInterval in both functions the time is specifed in milisecond
+// setTimeout setInterval in both functions the time is specified in millisecond
 
 // setTimeout This runs a code after given time starting form calling this method in program.
 
@@ -6,7 +6,7 @@ setTimeout( () => {
   console.log("SetTimeout is Called")
 }, 5000); // This will print SetTimeout is Called after 5sec after calling it
 
-// For stoping this we can use ClearTimeout
+// For stopping this we can use ClearTimeout
 
 // setInterval This runs a code after specific interval of time till we stop the timer.
 
