@@ -1,11 +1,12 @@
-// common functions are combined in a class to have less repetition in code 
+// common functions are combined in a class to have less repetition in code
 
 class Animals { // Animal class is created where the legs are defined 4
-  constructor(){
+  constructor () {
     this.legs = 4;
   }
-  getLegs() { // Function for getting legs
-    return(this.legs);
+
+  getLegs () { // Function for getting legs
+    return (this.legs);
   }
 }
 
@@ -16,15 +17,16 @@ class Dog extends Animals {
   }
 
   // we have inherited the animals so getLegs method is also there in Dog class
-  getSound() {
-    return("Bhow");
+  getSound () {
+    return ("Bhow");
   }
-  getAge(){
-    return(this.age);
+
+  getAge () {
+    return (this.age);
   }
 }
 
-let tommy = new Dog(10); // Created Object of Dog class
+const tommy = new Dog(10); // Created Object of Dog class
 
 console.log(tommy.getLegs()); // Output 4
 
