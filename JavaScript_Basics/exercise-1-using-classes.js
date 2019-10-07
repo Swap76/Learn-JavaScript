@@ -1,5 +1,5 @@
 class Student {
-  // Created the constuctor for student
+  // Created the constructor for student
   constructor (firstName,lastName,age,college,bio){ 
     this.firstName = firstName; 
     this.lastName = lastName; 
@@ -8,7 +8,7 @@ class Student {
     this.bio = bio;
   }
 
-  // This method retunrs combined firstname and lastname
+  // This method returns combined firstname and lastname
   getFullName() {
     return(`${this.firstName} ${this.lastName}`);
   }
