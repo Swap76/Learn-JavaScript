@@ -16,7 +16,7 @@ class StudentInfo {
   // college = "SIES"; // This is allowed above ES7, ES8
   constructor (name){ // name and age are arguments given to object at the time of creation of object
     this.name = name; // This initializes the local variable as name passed in argument
-    this.college = "SIES"; // We want the College to be same for all stundents that's why it is declared outside of constructor
+    this.college = "SIES"; // We want the College to be same for all students that's why it is declared outside of constructor
   }
   getNameAndCollege (){ // This is a methon in Stdent
     console.log(`${this.name} ${this.college}`);

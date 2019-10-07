@@ -37,7 +37,7 @@ class Student {
 
 console.log((new Student).getName()) // Gives error for node versions before 12.4.0(Approx) SyntaxError: Unexpected token = 
 
-class Studentinfo {
+class StudentInfo {
 
   constructor (firstName,lastName, age, branch, college){ 
     this.firstName = firstName; 
@@ -57,6 +57,6 @@ class Studentinfo {
 
 }
 
-let Swapnil = new Studentinfo("Swapnil", "Shinde",19, "Computer", "Sies"); // This way we can create new objects with arguments
+let Swapnil = new StudentInfo("Swapnil", "Shinde",19, "Computer", "Sies"); // This way we can create new objects with arguments
 
 console.log(Swapnil.getFullName()); // Output My name is Swapnil Shinde

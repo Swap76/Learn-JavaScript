@@ -39,7 +39,7 @@ console.log(a);
 let objectWithFunction = { 
   name: "Swapnil",// We can omit the " " in keys but for string values it is necessary
   rollno: 76, // We assign any type to keys 
-  getfull: function() { // Dont use arrow function here as arrow functions don't have this property 
+  getfull: function() { // Dont use arrow funciton here as arrow functions don't have this property 
     console.log(`${this.name} ${this.rollno}`);
   }
 };

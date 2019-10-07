@@ -1,4 +1,5 @@
-// Fs is a inbuild function in nodejs to perform operations on files
+// Fs is a inbuilt function in nodejs to perform operations on files
+
 
 // There are always two ways to do fs operation as sync and async 
 
@@ -20,7 +21,7 @@ content.on('open',() => {
   console.log("File opened for reading");
 });
 
-// Here we are listing to the event called data which will be called when data is present
+// Here we are listening to the event called data which will be called when data is present
 content.on('data', (data) => {
   console.log(data);
 });

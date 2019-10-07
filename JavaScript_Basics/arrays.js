@@ -1,5 +1,5 @@
 // Javascript arrays can take any values in the same array
-// We dont have to specify the size
+// We don't have to specify the size
 let a = ['hii', 26 , "Swapnil"]; 
 
 console.log(a); 
