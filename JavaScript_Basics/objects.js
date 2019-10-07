@@ -1,4 +1,4 @@
-// Object in basically colection of key value pairs
+// Object in basically collection of key value pairs
 let old = { 
   "name": "Swapnil",// left is key and right one is value
   "rollno": 76, // We assign any type to keys 
@@ -8,7 +8,7 @@ console.log(old);
 // Output { name: 'Swapnil', rollno: 76 }
 
 let a = { 
-  name: "Swapnil",// We can omit the " " in keys but for string values it is neccessary
+  name: "Swapnil",// We can omit the " " in keys but for string values it is necessary
   rollno: 76, // We assign any type to keys 
 };
 
@@ -24,22 +24,22 @@ let b = {
 console.log(b);
 // Output { name: 'Swapnil', rollno: 'Swap' }
 
-console.log(a["name"]); // This way we can get a perticular value for a key. " " around are imp.
+console.log(a["name"]); // This way we can get a particular value for a key. " " around are imp.
 
-console.log(a.name); // This way you can get the value of perticular element
+console.log(a.name); // This way you can get the value of particular element
 // Output Swapnil
-a.name = "Swapnil Satish Shinde"; // This way we can change a perticular property of object
+a.name = "Swapnil Satish Shinde"; // This way we can change a particular property of object
 
-console.log(a.name); // This way you can get the value of perticular element
+console.log(a.name); // This way you can get the value of particular element
 // Output Swapnil Satish Shinde
 
 console.log(a);
 // Output { name: 'Swapnil Satish Shinde', rollno: 76 }
 
 let objectWithFunction = { 
-  name: "Swapnil",// We can omit the " " in keys but for string values it is neccessary
+  name: "Swapnil",// We can omit the " " in keys but for string values it is necessary
   rollno: 76, // We assign any type to keys 
-  getfull: function() { // Dont use arrow funciton here as arrow functions dont have this property 
+  getfull: function() { // Dont use arrow funciton here as arrow functions don't have this property 
     console.log(`${this.name} ${this.rollno}`);
   }
 };

@@ -1,4 +1,0 @@
-Best place to learn the syntax and the methods associated all things like array
-
-https://developer.mozilla.org/en-US/docs/Web/JavaScript
-

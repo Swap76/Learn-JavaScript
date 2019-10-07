@@ -1,8 +1,8 @@
-Create object of student have his details of firstname lastname age college bio
+1. Create an object of student containing his/her first name, last name, age, college and bio;
 
-We want his fullname bio all details using normal functions
+2. Encapsulate (with getters and setters) the user details using normal functions;
 
+3. Implement a class called "Student", which should contain his/her first and last name, age, college and bio;
 
-Create class of student take his details of firstname lastname age college bio
+4. Encapsulate (with getters and setters) the user details using class members;
 
-We want his fullname bio all details using class methods
