@@ -14,7 +14,8 @@ function Add (a,b) { // Here We have taken 2 Arguments a and b
 console.log(Add(10,5)); // This Calls the function 
 // We have to directly pass the arguments in function call
 
-// Functions which dont have name are called Anonymous this should be assigned to a particular variable 
+
+// Functions which don't have name are called Anonymous this should be assigned to a particular variable 
 let helpFast = function (){
   return("Fast Fast");
 }
