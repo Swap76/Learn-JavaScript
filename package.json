@@ -4,6 +4,8 @@
   "description": "This repository was made for beginners to start learning Javascript from Scratch",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint JavaScript*/** --ext .js",
+    "fix": "eslint JavaScript*/** --ext .js --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Swap76/JavascriptBasics/issues"
   },
-  "homepage": "https://github.com/Swap76/JavascriptBasics#readme"
+  "homepage": "https://github.com/Swap76/JavascriptBasics#readme",
+  "devDependencies": {
+    "eslint": "^6.5.1"
+  }
 }
