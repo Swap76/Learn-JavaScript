@@ -1,4 +1,4 @@
-This file states the order of modules you should be learning according to get most out of it:-
+This file states the order of modules you should be learning according to get most out of it:
 
 Day 1
 
