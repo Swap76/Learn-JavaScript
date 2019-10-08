@@ -1,7 +1,7 @@
 console.log(this); // This gives empty object
 // Output {}
 
-var  aa = 1;
+var aa = 1;
 console.log(global.aa); // Global scope is accessible to every where
 // Output undefined
 
@@ -9,20 +9,20 @@ console.log(global.aa); // Global scope is accessible to every where
 
 // Blocked Objects
 {
-  var a = 1
-  let b = 2  
+  var a = 1;
+  const b = 2;
   console.log(b);
 }
 console.log(a);// Output 1 as variable a is declared using var
-console.log(a); 
+console.log(a);
 
 // console.log(b) // Output ReferenceError: b is not defined as b is defined using let it is going to be declared only in that block
 
 const help = () => {
   var a = 4;
-  let b =2; // variables defined by let and const are accessible to there scope only
-  console.log(a); // This will not get printed unless and until function is called 
-}
+  const b = 2; // variables defined by let and const are accessible to there scope only
+  console.log(a); // This will not get printed unless and until function is called
+};
 
 console.log(a);// Output 1
 

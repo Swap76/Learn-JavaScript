@@ -2,6 +2,13 @@
 
 This repository was made for beginners to start learning Javascript from Scratch
 
+# EsLint
+
+Lint your js file with eslint
+
+```sh
+$ npm run lint
+```
 ### Documentation
 
 This repository using [Docsify](https://docsify.js.org) for generate documentation website on the fly.

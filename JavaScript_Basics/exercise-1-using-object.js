@@ -1,4 +1,4 @@
-let student = {
+const student = {
   firstName: "Swapnil",
   lastName: "Shinde",
   age: 19,
@@ -7,16 +7,16 @@ let student = {
 };
 
 getFullName = () => {
-  return(`${student.firstName} ${student.lastName}`);
-}
+  return `${student.firstName} ${student.lastName}`;
+};
 
 getBio = () => {
-  return(student.bio);
-}
+  return student.bio;
+};
 
 getAllDetails = () => {
-  return(`My name is ${student.firstName} ${student.lastName} \nMy age is ${student.age} \nMy college is ${student.college}, I am ${student.bio}.`);
-}
+  return `My name is ${student.firstName} ${student.lastName} \nMy age is ${student.age} \nMy college is ${student.college}, I am ${student.bio}.`;
+};
 
 console.log(getFullName()); // Output Swapnil Shinde
 

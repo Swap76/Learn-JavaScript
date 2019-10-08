@@ -4,4 +4,4 @@ setTimeout(() => {
 
 console.log("Last statment"); // This statement gets printed first
 
-// This enables the non blocking using event based management 
+// This enables the non blocking using event based management
