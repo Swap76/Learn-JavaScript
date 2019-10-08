@@ -11,27 +11,20 @@ var wholedata = "";
 var request = https.request(options, function (res) {
     res.on("data", function (chunk) {
         wholedata += chunk; // we get data in chunks or packets so we are adding it to get wholedata
-
     });
     res.on("end", function () {
-
         var JSONobj = JSON.parse(wholedata); // parsing data into object form
-
         var path = JSONobj["url"];
         var img = https.request(path, function (res) {
             var data = new Stream(); // creating new stream
-
             res.on("data", function (chunk) {
                 data.push(chunk);
             });
-
             res.on("end", function () {
                 fs.writeFileSync("file.jpg", data.read())  // saving image in file.jpg file
-
             });
         });
         img.end();
     });
-
 })
 request.end(); // ending request
