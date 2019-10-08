@@ -1,4 +1,4 @@
-# Javascript Basics
+# Learn JavaScript
 
 This repository was made for beginners to start learning Javascript from Scratch
 
