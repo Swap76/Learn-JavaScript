@@ -7,7 +7,7 @@ const options = {
     path: "/planetary/apod?api_key=DEMO_KEY&date=2019-08-08", // path from which image is extracted 
     method: 'GET'
 };
-const wholedata = "";
+var wholedata = "";
 const request = https.request(options, function (res) {
     res.on("data", function (chunk) {
         wholedata += chunk; // we get data in chunks or packets so we are adding it to get wholedata
