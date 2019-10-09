@@ -59,3 +59,32 @@ Now, let's take a look at a proper way of promise chaining:
     });
 
 This code is much easier to read. Nootice the lack of scoping, `});` and note that the code does not grow towards the right side. As you add more handlers, it's still very readable. The major point is, `script` variable is being re-used and passed through the chain.
+
+
+## API Example
+
+    new Promise(function(resolve, reject){ 
+    var request = new XMLHttpRequest();
+    request.open('GET', 'https://openlibrary.org/api/books?bibkeys=ISBN:0201558025&format=json');
+    request.send();
+    })
+We define our promise and create a request variable. We then create our request using the API endpoint and send a GET request to it.
+
+    request.onload = () => request.status == 200 ? resolve(request) : reject(request);
+Using the ES6+ ternary operator to check if the request response returned `200` (OK) or something else (Temporary Outage, Error or similar status codes). Depending on this check, we either proceed with the chain or stop with an error message.
+
+    .then(function(result) {
+    return(result.response);
+    })
+Due to the way promises work, `resolve(request)` returns the request. So in our `.then` handler we can simply bind it to a variable `result`. In this handler, we simply return the part we need, which is the response of our API request.
+
+    .then(function(result) {
+    return JSON.parse(result);
+    })
+This handler parses the request response we received and parses the JSON into an actual JavaScript Object with properties. 
+
+    .then(function(result) {
+    alert(result[Object.keys(result)[0]].info_url);
+    });
+Last, we alert the information we fetched, in this case it's an URL of a Concrete Mathematics book. The `Object.keys()` method simply returns enumerable properties so we can access then with `[0]`, `[1]` and so on.
+This code shows how we can manage the initial promise result and pass it down the chain while at the same time keeping our code structure and making our code more readable and clean.

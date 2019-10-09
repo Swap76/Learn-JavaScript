@@ -16,3 +16,18 @@ new Promise(function(resolve, reject){
 });
 
 
+new Promise(function(resolve, reject){ 
+    var request = new XMLHttpRequest(); // We define a new request.
+    request.open('GET', 'https://openlibrary.org/api/books?bibkeys=ISBN:0201558025&format=json'); // Defining the API endpoint and the request method.
+    request.send(); // Request is sent.
+    request.onload = () => request.status == 200 ? resolve(request) : reject(request); // Check if request succeeded (response 200 = OK), otherwise, reject the promise.
+    })
+    .then(function(result) {
+        return(result.response); // Due to the resolve(request), request is being passed down as a JSON object in the variable result, we then get the part that we need and pass it further (request response)
+    })
+    .then(function(result) {
+    return JSON.parse(result); // We parse the JSON response from the API and return it.
+    })
+    .then(function(result) {
+        alert(result[Object.keys(result)[0]].info_url); // In the last handler, we simply output the information we need.
+    });
