@@ -3,11 +3,17 @@ Promises provide a more convenient syntax to handle asynchronous operations with
 Consider this example, pre promises:
 ```javascript
 // Assume we have a number of async operations that need to run in sequence - we need the result to grab the next result.
-getAsyncData(function (firstSet) {
-  getSecondSet(firstSet, function (secondSet) {
-    getThirdSet(secondSet, function (thirdSet) {
+const getAsyncDataWithCallbacks = (string, cb) => {
+  setTimeout(() => {
+    cb(`${string} bar`);
+  }, 1000);
+};
+
+getAsyncDataWithCallbacks('foo', firstResult => {
+  getAsyncDataWithCallbacks(firstResult, secondResult => {
+    getAsyncDataWithCallbacks(secondResult, thirdResult => {
       //on and on and on...
-    });
+    })
   });
 });
 ```
@@ -18,27 +24,27 @@ where we have too many callbacks to the point of making our code unmanageable.
 This is eased via the use of promises. You can change these async calls to return a promise instead that wraps that value like so:
 
 ```javascript
-const getAsyncData = () => {
+const getAsyncDataWithPromises = string => {
   return new Promise((resolve, reject) => {
     //Assume an async operation here. We'll set a timeout to give an example.
     //After 5 seconds, our data will resolve.
-    setTimeout(() => resolve('sample data'), 5000);
+    setTimeout(() => resolve(`${string} bar`), 1000);
   });
-}
+};
 ```
 
 Our callback chaining above instead now becomes:
 
 ```javascript
-getAsyncData()
-  .then(firstSet => getSecondSet(firstSet))
-  .then(secondSet => getThirdSet(secondSet));
+getAsyncDataWithPromises('foo')
+  .then(firstSet => getAsyncDataWithPromises(firstSet))
+  .then(secondSet => getAsyncDataWithPromises(secondSet));
   //... etc. etc. etc.
 
 // Or, a more simplified version using references
-getAsyncData()
-    .then(getSecondSet)
-    .then(getThirdSet);
+getAsyncDataWithPromises('foo')
+  .then(getAsyncDataWithPromises)
+  .then(getAsyncDataWithPromises);
 ```
 
 As shown above, using promises allows us to create "chains" of asynchronous operations that can be run one after another.
