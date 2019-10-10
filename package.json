@@ -4,6 +4,7 @@
   "description": "This repository was made for beginners to start learning Javascript from Scratch",
   "main": "index.js",
   "dependencies": {
+    "pg": "^7.12.1"
     "express": "^4.17.1"
   },
   "devDependencies": {
