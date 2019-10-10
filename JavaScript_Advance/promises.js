@@ -15,3 +15,21 @@ b.then((value) => {
   .catch((value) => {
     console.log(value);
   });
+
+// you can chain promises like so:
+// Assuming we have an asynchronous call to retrieve a value like so:
+const asyncCall = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    resolve("foo");
+  }, 2000);
+});
+
+asyncCall
+  // will become 'FOO'
+  .then(val => val.toUpperCase())
+  // converted back to 'foo'
+  .then(val => val.toLowerCase())
+  // appended with ' bar' to become 'foo bar'
+  .then(val => `${val} bar`)
+  // console logs 'foo bar'
+  .then(console.log);
