@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "This repository was made for beginners to start learning Javascript from Scratch",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "pg": "^7.12.1"
+  },
   "devDependencies": {
     "eslint": "^6.5.1",
     "eslint-config-standard": "^14.1.0",
