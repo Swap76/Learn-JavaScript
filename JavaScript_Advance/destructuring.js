@@ -1,4 +1,5 @@
 // As data coming from the server is very big then there is better way of getting the data out of object
+
 const a = { // Suppose this is the object coming from server then
   name: "Swapnil",
   age: 19,
@@ -18,6 +19,7 @@ console.log(Myname); // Output Swapnil
 array = [1, 2, 3, 4]; // Array Declaration
 
 const [first, second, , fourth] = array; // Array Destructuring
+
 // In this the Order of variables matters the most as arrays don't have keys
 
 // For skipping some values we can do that using as shown here we have skiped the third value
