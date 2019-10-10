@@ -15,6 +15,7 @@
 - JavaScript Advance
 
   - [Arrow Function](Javascript_Advance/arrowFunction.md)
+  - [Filtering Arrays](Javascript_Advance/FilteringArray.md)
   - [Destructuring](Javascript_Advance/destructuring.md)
   - [Spread & Rest](Javascript_Advance/spread&rest.md)
   - [Timer Function](Javascript_Advance/timerFunction.md)
