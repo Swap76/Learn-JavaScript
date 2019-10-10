@@ -26,10 +26,5 @@
   "bugs": {
     "url": "https://github.com/Swap76/JavascriptBasics/issues"
   },
-  "homepage": "https://github.com/Swap76/JavascriptBasics#readme",
-  "husky": {
-    "hooks": {
-      "pre-commit": "eslint **/*.js --fix"
-    }
-  }
+  "homepage": "https://github.com/Swap76/JavascriptBasics#readme"
 }

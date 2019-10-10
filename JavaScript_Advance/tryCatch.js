@@ -41,26 +41,26 @@ message.innerHTML = "";
 input = document.getElementsByTagName("input").value;
 try {
   if (input == "") {
-    //if the input is empty then throw empty error
+    // if the input is empty then throw empty error
     throw "empty";
   }
   if (isNaN(input)) {
-    //if the input is Not a Number then throw not a number error
+    // if the input is Not a Number then throw not a number error
     throw "not a number";
   }
   x = Number(input);
   if (x < 5) {
-    //if the input is less than 5 then throw too low error
+    // if the input is less than 5 then throw too low error
     throw "Too low";
   }
   if (x > 10) {
-    //if the input is greater than 10 then throw too high error
+    // if the input is greater than 10 then throw too high error
     throw "Too high";
   }
 } catch (err) {
   message.innerHTML = "Input is " + err;
 } finally {
-  //Empty the input irrespective of the functionality
+  // Empty the input irrespective of the functionality
   document.getElementsByTagName("input").value = "";
 }
 /*
