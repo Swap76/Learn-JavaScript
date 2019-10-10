@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "pg": "^7.12.1"
+    "express": "^4.17.1"
   },
   "devDependencies": {
     "eslint": "^6.5.1",
