@@ -5,6 +5,8 @@
   "main": "index.js",
   "dependencies": {
     "mongoose": "^5.7.4"
+    "pg": "^7.12.1"
+    "express": "^4.17.1"
   },
   "devDependencies": {
     "eslint": "^6.5.1",
@@ -28,10 +30,5 @@
   "bugs": {
     "url": "https://github.com/Swap76/JavascriptBasics/issues"
   },
-  "homepage": "https://github.com/Swap76/JavascriptBasics#readme",
-  "husky": {
-    "hooks": {
-      "pre-commit": "eslint **/*.js --fix"
-    }
-  }
+  "homepage": "https://github.com/Swap76/JavascriptBasics#readme"
 }
