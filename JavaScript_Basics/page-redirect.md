@@ -5,7 +5,7 @@ Syntax: `Window.location `  [MDN](https://developer.mozilla.org/en-US/docs/Web/A
 
 
 Example of how to use page redirect.
-
+```html
 <html>
    <head>
       <script type = "text/javascript">
@@ -26,9 +26,9 @@ Example of how to use page redirect.
       
    </body>
 </html>
-
+```
 An example of how to perform an Auto Refresh
-
+```html
 <html>
    <head>
       
@@ -47,3 +47,4 @@ An example of how to perform an Auto Refresh
    </body>
    
 </html>
+```
