@@ -11,6 +11,7 @@
 	- [Exercise 1](Javascript_Basics/exercise-1.md)
 	- [Exercise 1 Using Object](Javascript_Basics/exercise-1-using-object.md)
 	- [Exercise 1 Using Classes](Javascript_Basics/exercise-1-using-classes.md)
+	- [Math](Javascript_Basics/Cookies.md)
 
 - JavaScript Advance
 
