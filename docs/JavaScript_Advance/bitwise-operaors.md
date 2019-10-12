@@ -1,4 +1,4 @@
-
+# Bitwise Operator
 Bitwise operators treat their operands as a sequence of 32 bits (zeroes and ones), rather than as decimal, hexadecimal,
 or octal numbers. For example, the decimal number nine has a binary representation of 1001.
 Bitwise operators perform their operations on such binary representations,but they return standard JavaScript numerical values.
@@ -6,7 +6,7 @@ Bitwise operators perform their operations on such binary representations,but th
 Bitwise AND
 When a bitwise AND is performed on a pair of bits, it returns 1 if both bits are 1.
 
-**`var x = 5 & 1; // outputs 1`**
+`var x = 5 & 1; // outputs 1`
 
 Bitwise OR
 Bitwise OR returns 1 if one of the bits are 1:
