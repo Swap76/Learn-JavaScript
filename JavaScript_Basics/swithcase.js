@@ -170,16 +170,16 @@ switch (new Date().getDay()) {
 
 /** Exercise for You Complete it */
 
-//Create a switch statement that will alert "Hello" if fruits is "banana", and "Welcome" if fruits is "apple".
+// Create a switch statement that will alert "Hello" if fruits is "banana", and "Welcome" if fruits is "apple".
 
-(fruits) {
+switch (fruits) {
  
-    "Banana":
-       alert("Hello")
-       break;
-    
-    "Apple":
-       alert("Welcome")
-       break;    
-   }
+  case "Banana":
+      alert("Hello")
+      break;
+  
+  case "Apple":
+      alert("Welcome")
+      break;    
+}
    
