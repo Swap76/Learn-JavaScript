@@ -4,7 +4,7 @@
 The JavaScript Switch Statement use the switch statement to select one of many code blocks to be executed.
 
 ### Syntax
-```
+```js
 switch(expression) {
   case x:
     // code block
@@ -25,11 +25,11 @@ If there is a match, the associated block of code is executed.
 
 
 The getDay() method returns the weekday as a number between 0 and 6.
-```
+```js
 (Sunday=0, Monday=1, Tuesday=2 ..)
 ```
 This example uses the weekday number to calculate the weekday name:
-```
+```js
 switch (new Date().getDay()) {
   case 0:
     day = "Sunday";

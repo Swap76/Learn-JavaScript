@@ -15,26 +15,26 @@ The Web Api provides us with an interface called `window` that provides us with 
 
 i. Location object DOM String assignment
 - Set the location object with a DOMString
-    ```
+    ```js
     window.location = 'https://www.example.com';
     ```
 ii. Location href property
 - Set the `href` property to the URL needed
-    ```
+    ```js
     window.location.href = 'https://www.example.com';
     ```
 iii. Location.assign( url ) method
 - Loads the document at the URL provided to the method
 - The previous document would be registered in the `Session History` so that the user could click on the back button of the browser to view the previous page.
 - Set the URL in the assign method
-    ```
+    ```js
     window.location.assign('https://www.example.com');
     ```
 iv. Location.replace( url ) method
 - Loads the document at the URL provided to the method
 - This method replaces the current document with the document at the URL passed to the replace method of the location object. So the current document would not be stored in the `Session History` and the user cannot use the back button of the browser to view the previous document.
 - Set the URL in the replace method
-    ```
+    ```js
     window.location.replace('https://www.example.com');
     ```
 
@@ -42,7 +42,7 @@ iv. Location.replace( url ) method
 This is a special scenario which could be accomplished with a proper usage of a mix of location object and the `setInterval` method of the Window interface. Here is an implementation of it.
 
 - Using setInterval function and window.location.reload()
-```
+```js
 var intervalID;
 
 function reload(forcedReload) {
@@ -63,7 +63,7 @@ scheduleAutoRefresh(1000);
 ```
 The `setTimeout` method could be used as well. It runs the function after the set timeout is done.
 
-```
+```js
 function autoRefresh(timeoutInMilliSeconds) {
     setTimeout(window.location.reload(), timeoutInMilliSeconds);
 }
@@ -74,7 +74,7 @@ autoRefresh();
 
 To acheive the refresh without using JavaScript, the `meta` tag could be used in the `<head>` element of the HTML Page. To achieve the refresh at a certain time interval, set the `http-equiv` attribute to 'refresh' and the `content` attribute is set to a number greater than 0 which is in seconds to achieve a reload of the page. The implementation is as shown below.
 
-```
+```html
 <html>
     <head>
         <title>The Example Page</title>

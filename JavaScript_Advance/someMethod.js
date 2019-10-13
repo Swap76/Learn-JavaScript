@@ -1,11 +1,7 @@
-
-
 //Array some() Method
 //The some() method executes the function once for each element present in the array:
 //If it finds an array element where the function returns a true value, 
 // some() returns true (and does not check the remaining values)
-
-
 
 let arr = ['name','test name', 'testtwo','ship'];
 
@@ -18,6 +14,5 @@ let found = arr.some((element) => {
    return element.includes('test')
 })
 console.log(found) // true
-
 
 // it doesnot change the original array

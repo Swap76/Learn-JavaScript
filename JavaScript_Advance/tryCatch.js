@@ -9,13 +9,12 @@ The finally statement lets you execute code, after try and catch, regardless of 
 */
 
 /*
-    try {
-    Block of code to try
-    }
-    catch(err) {
-    Block of code to handle errors
-    }
-
+  try {
+  Block of code to try
+  }
+  catch(err) {
+  Block of code to handle errors
+  }
 */
 console.log("pkp");
 try {
@@ -64,12 +63,12 @@ try {
   document.getElementsByTagName("input").value = "";
 }
 /*
-    Different types of the Error in JavaScript
+  Different types of the Error in JavaScript
 
-    EvalError	An error has occurred in the eval() function
-    RangeError	A number "out of range" has occurred
-    ReferenceError	An illegal reference has occurred
-    SyntaxError	A syntax error has occurred
-    TypeError	A type error has occurred
-    URIError	An error in encodeURI() has occurred
+  EvalError	An error has occurred in the eval() function
+  RangeError	A number "out of range" has occurred
+  ReferenceError	An illegal reference has occurred
+  SyntaxError	A syntax error has occurred
+  TypeError	A type error has occurred
+  URIError	An error in encodeURI() has occurred
 */

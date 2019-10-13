@@ -13,7 +13,7 @@ The `map()` method creates a new array with the results of calling the provided 
 The following code takes an array of numbers and creates a new array containing the square roots of the numbers in the first array.
 
 Using a callback function
-```
+```js
 var numbers = [1, 4, 9];
 var roots = numbers.map(function(num) {
     return Math.sqrt(num)
@@ -24,7 +24,7 @@ var roots = numbers.map(function(num) {
 ```
 
 Using an arrow function
-```
+```js
 var numbers = [1, 4, 9];
 var roots = numbers.map(num => Math.sqrt(num));
 
