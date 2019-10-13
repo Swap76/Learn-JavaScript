@@ -24,7 +24,7 @@ async function getUsers () {
 // When you need to use async keyword needs to add the reserved keyword after the = sign
 // this is in case of you use a arrow function
 
-const getUsers = await () => {
+const getUsers = async () => {
   // we use try/catch block because the async/await don't catch by default the errors
   // from a fetch request
   try {
