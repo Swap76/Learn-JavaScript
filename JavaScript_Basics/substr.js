@@ -11,7 +11,7 @@
  console.log(str.substr(0, 10)); // 'commonSour'
  console.log(str.substring(0, 10)); // 'commonSour'
 
- // Example: Remove first and last character from a given string ❓
+ // Example: Remove first and last character from a given string
 
  console.log(str.substr(1, str.length - 2)) // ommonSourceOfTrut
 

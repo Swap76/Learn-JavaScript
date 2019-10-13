@@ -14,13 +14,13 @@ Syntac: `substring`  [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScri
  console.log(str.substr(0, 10)); // 'commonSour'
  console.log(str.substring(0, 10)); // 'commonSour'
 
- // Example: Remove first and last character from a given string ❓
+ // Example: Remove first and last character from a given string
 
  console.log(str.substr(1, str.length - 2)) // ommonSourceOfTrut
 
  // Substring takes indices
  console.log(str.substring(1, str.length - 1)) // ommonSourceOfTrut
-   ```
+```
 
 ## Substr Browser compatibility
 <img src="resources/img/substr.png" width="381" height="148" alt="Substr Browser compatibility">
