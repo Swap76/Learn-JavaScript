@@ -1,6 +1,6 @@
  // Redirect to landing page if 'form_submitted' cookie does not exist
 
-  if (get_cookie('secondvisit') === null) {
+ if (get_cookie('secondvisit') === null) {
     window.location.href = "landing.html";
   }
 
@@ -11,5 +11,4 @@
   }            
 
   document.write("You will be redirected to main page in 10 sec.");
-
   setTimeout('Redirect()', 10000);
