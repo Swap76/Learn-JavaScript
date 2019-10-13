@@ -22,7 +22,7 @@ const request = https.request(options, function (res) {
         data.push(chunk);
       });
       res.on("end", function () {
-        fs.writeFileSync("file.jpg", data.read()); // saving image in file.jpg file
+        fs.writeFileSync("./resources/img/file.jpg", data.read()); // saving image in file.jpg file
       });
     });
     img.end();
