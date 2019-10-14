@@ -2,6 +2,7 @@
 
 	- [Variables](Javascript_Basics/variables.md)
 	- [String Operation](Javascript_Basics/stringOperation.md)
+	- [Comparison Operators](Javascript_Basics/comparisonOperators.md)
 	- [Functions](Javascript_Basics/functions.md)
 	- [Arrays](Javascript_Basics/arrays.md)
 	- [Objects](Javascript_Basics/objects.md)
