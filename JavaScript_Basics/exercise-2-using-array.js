@@ -60,22 +60,3 @@ var Country = ["India", "US", "German", "Australia"];
 console.log(Country); // Output : India , Us , German , Austraia 
 var iof = Country.indexOf("Australia");
 console.log(iof); // Output : 3
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
