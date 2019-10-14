@@ -18,8 +18,8 @@ The following example uses filter() to create a filtered array that has all elem
 with values less than 10 removed.
 */
 function isBigEnough(value) {
-    return value >= 10;
-  }
+  return value >= 10;
+}
   
-  var filtered = [12, 5, 8, 130, 44].filter(isBigEnough);
-  // filtered is [12, 130, 44]
+var filtered = [12, 5, 8, 130, 44].filter(isBigEnough);
+// filtered is [12, 130, 44]
