@@ -9,6 +9,7 @@ console.log(5 & 13 & 3); // 0101 & 1101 & 0011 = 0001
 
 console.log(5 | 13); // 0101 | 1101 = 1101
 
+
 /*
 Bitwise operators treat their operands as a sequence of 32 bits (zeroes and ones), rather than as decimal, hexadecimal,
 or octal numbers. For example, the decimal number nine has a binary representation of 1001.
