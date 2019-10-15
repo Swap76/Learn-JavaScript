@@ -1,14 +1,12 @@
- // Redirect to landing page if 'form_submitted' cookie does not exist
+var n1 = 43.4;
 
- if (get_cookie('secondvisit') === null) {
-    window.location.href = "landing.html";
-  }
+var n2 = Math.floor(n1);
+console.log(n2); // Expect to be 43
 
-  //Here setTimeout() is a built-in JavaScript function which can be used to execute another function after a given time interval.
+var n3 = 43.6;
 
-  function Redirect() {
-    window.location = "https://www.tutorialspoint.com";
-  }            
+var n4 = Math.ceil(n3);
+console.log(n4); // Expect to be 44
 
-  document.write("You will be redirected to main page in 10 sec.");
-  setTimeout('Redirect()', 10000);
+var randomNumber = Math.random();
+console.log(randomNumber); // random number
