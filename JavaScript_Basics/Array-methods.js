@@ -60,3 +60,13 @@ var Country = ["India", "US", "German", "Australia"];
 console.log(Country); // Output : India , Us , German , Australia 
 var iof = Country.indexOf("Australia");
 console.log(iof); // Output : 3
+
+
+// 11 map() method
+var numbers = [1,2,3,4,5];
+console.log(numbers); //[1,2,3,4,5]
+function double(num){
+  return num * 2;
+}
+numbers = numbers.map(double);
+console.log(numbers); //[2,4,6,8,10]
