@@ -1,4 +1,4 @@
-var jobs = {
+let jobs = {
   set current(jobName) {
     this.jobArray.push(jobName);
   },
