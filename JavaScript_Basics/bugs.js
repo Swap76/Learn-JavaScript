@@ -4,5 +4,5 @@ var obj = {
 
 var name = null;
 
-console.log(typeof obj);
-console.log(typeof name);
+console.log(typeof obj) // object;
+console.log(typeof name) // object;

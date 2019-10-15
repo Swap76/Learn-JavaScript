@@ -6,5 +6,5 @@ returnName.hiddenObj = {
     name: 'i am a javascript object'
 }
 
-console.log(returnName('hello'));
-console.log(returnName.hiddenObj);
+console.log(returnName('hello')); // hello
+console.log(returnName.hiddenObj); // { name : 'i am a javascript object' }

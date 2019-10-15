@@ -7,4 +7,4 @@ function modifyString(sampleString){
 
 const modifier = modifyString('sample string');
 
-console.log(modifier());
+console.log(modifier()); //  sample string is modified 
