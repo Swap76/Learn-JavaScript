@@ -11,7 +11,7 @@ let info = {
 }
 
 console.log(info.getFullName());
-// Output My name is undefined undefined that's why we dont use this with arrow function
+// Output My name is undefined undefined that's why we don't use this with arrow function
 
 let newInfo = {
   firstName: "Swapnil",

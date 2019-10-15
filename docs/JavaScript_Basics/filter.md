@@ -22,7 +22,7 @@ pass the test implemented by the provided function.
 
 Filtering out all small values
 
-The following example uses filter() to create a filtered array that has all elementswith values less than 10 removed.
+The following example uses filter() to create a filtered array that has all elements with values less than 10 removed.
 
 
 

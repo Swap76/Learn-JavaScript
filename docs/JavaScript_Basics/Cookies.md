@@ -1,6 +1,6 @@
 # Math
 
-Javascript Math functions are useful for number calculs, for example:
+Javascript Math functions are useful for number calculus, for example:
 
 In this code we can use `floor` from Math to reduce the decimal number to the next low whole number.
 

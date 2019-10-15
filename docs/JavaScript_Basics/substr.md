@@ -2,7 +2,7 @@
 
 - ***Use:***
 Syntax: `substr`  [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substr)  takes parameters as  `(from, ?length).`
-Syntac: `substring`  [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substring)  takes parameters as  `(start, ?end(exclusive)).`
+Syntax: `substring`  [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substring)  takes parameters as  `(start, ?end(exclusive)).`
 
 ```js
  // get value using substr

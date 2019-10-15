@@ -22,7 +22,7 @@ const [first, second, , fourth] = array; // Array Destructuring
 
 // In this the Order of variables matters the most as arrays don't have keys
 
-// For skipping some values we can do that using as shown here we have skiped the third value
+// For skipping some values we can do that using as shown here we have skipped the third value
 console.log(fourth); // Output 4
 
 newArray = ["Swapnil", 19, "Shinde"]; // New array

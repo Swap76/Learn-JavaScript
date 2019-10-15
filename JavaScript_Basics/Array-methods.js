@@ -12,12 +12,12 @@ var garden = flowers.concat(leaf);
 
 // 3. copyWithin() method
 var Country = ["India", "US", "German", "Australia"];
-console.log(Country); // Output : India , Us , German , Austraia 
+console.log(Country); // Output : India , Us , German , Australia 
 Country.copyWithin(2,0);  // Output : India , Us , India , Us
 
 // 4.fill() method 
 var Country = ["India", "US", "German", "Australia"];
-console.log(Country); // Output : India , Us , German , Austraia 
+console.log(Country); // Output : India , Us , German , Australia 
 Country.fill("Canada"); // Output : Canada, Canada , Canada, Canada
 
 // 5. find() method
@@ -38,25 +38,25 @@ years.findIndex(checkYear); // Output: 2
 
 // 7.forEach() method
 var Country = ["India", "US", "German", "Australia"];
-console.log(Country); // Output : India , Us , German , Austraia 
+console.log(Country); // Output : India , Us , German , Australia 
 Country.forEach(countryFunction);
 function countryFunction(item) {
-    console.log(item) // Output: India , Us , German , Austraia
+    console.log(item) // Output: India , Us , German , Australia
 }
 
 // 8.  isArray() method
 var Country = ["India", "US", "German", "Australia"];
-console.log(Country); // Output : India , Us , German , Austraia 
+console.log(Country); // Output : India , Us , German , Australia 
 Array.isArray(Country); //Output: true
 
 // 9.includes() method
 var Country = ["India", "US", "German", "Australia"];
-console.log(Country); // Output : India , Us , German , Austraia 
+console.log(Country); // Output : India , Us , German , Australia 
 var avail = Country.includes("Australia"); 
 console.log(avail); // Output : true
 
 // 10. IndexOf() method
 var Country = ["India", "US", "German", "Australia"];
-console.log(Country); // Output : India , Us , German , Austraia 
+console.log(Country); // Output : India , Us , German , Australia 
 var iof = Country.indexOf("Australia");
 console.log(iof); // Output : 3

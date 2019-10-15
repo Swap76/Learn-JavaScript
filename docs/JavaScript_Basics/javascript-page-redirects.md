@@ -72,7 +72,7 @@ autoRefresh();
 ```
 - Using the `meta` element in HTML/XHTML
 
-To acheive the refresh without using JavaScript, the `meta` tag could be used in the `<head>` element of the HTML Page. To achieve the refresh at a certain time interval, set the `http-equiv` attribute to 'refresh' and the `content` attribute is set to a number greater than 0 which is in seconds to achieve a reload of the page. The implementation is as shown below.
+To achieve the refresh without using JavaScript, the `meta` tag could be used in the `<head>` element of the HTML Page. To achieve the refresh at a certain time interval, set the `http-equiv` attribute to 'refresh' and the `content` attribute is set to a number greater than 0 which is in seconds to achieve a reload of the page. The implementation is as shown below.
 
 ```html
 <html>
