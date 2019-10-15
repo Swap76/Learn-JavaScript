@@ -4,7 +4,8 @@ const testSet = new Set([1, 2, "orange", { name: "Frank" }]);
 
 // Instance Methods and Properties
 
-testSet.size;                   // Return 4
+console.log(testSet.size);      // output: 4
+
 testSet.add(4);                 // testSet [1, 2, "orange", {name: "Frank"}, 4]
 testSet.add(4);                 // Value not added, it's duplicated
 testSet.delete(2);              // testSet [1, "orange", {name: "Frank"}, 4]
@@ -30,7 +31,9 @@ iterSet.forEach(value => console.log(value)); // output: 1, "blue", 125, "right"
 // Creating a Set from an Array
 
 const array = [1, 2, 3, "Alehop"];
-const arrToSet = new Set(array); // arrToSet [1, 2, 3, "Alehop"]
+const arrToSet = new Set(array); 
+
+console.log(arrToSet); // output: [1, 2, 3, "Alehop"]
 
 // Deleting duplicated elements in an Array using Set and spread operator
 
