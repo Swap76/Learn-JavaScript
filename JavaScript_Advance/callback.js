@@ -1,5 +1,5 @@
 /**
- * Callback functions are derieved from a programming paradigm called 
+ * Callback functions are derived from a programming paradigm called 
  * `functional programming`. This basically can be concluded to this sentence:
  * You can pass (`closure`) functions as an argument to another function.  
  * 
@@ -67,7 +67,7 @@ sayHi(() => { console.log('How are you?') })
 /**
  * So, basically the function that we pass to `.then()` function, is a `callback` function.
  * 
- * We see usage of `Promise` widely in differen API call scenarios.
+ * We see usage of `Promise` widely in different API call scenarios.
  * Different HTTP libraries (`fetch, axios, ...`), use javascript `Promise` object,
  * for handling `onSuccess` and `onError` scenarios when calling an API endpoint.
  * When you make an API call, if everything goes well and server's response has some 
@@ -100,7 +100,7 @@ axios
  * Let's say we want to retrieve 2 random facts about cats and after retrieving
  * the list of 2 facts, start making another API call to retrieve details of each.
  * 
- * According to `cat-facts` docs, we will recieve an `_id` field in the list of facts
+ * According to `cat-facts` docs, we will receive an `_id` field in the list of facts
  * and when we make an API call to `/facts/:id` endpoint, we can get details of that specific fact.
  * 
  * Look at the following code snippet:
@@ -132,7 +132,7 @@ axios({
  * cases, one will end up writing many nested `.then().catch()` blocks. Also,
  * it is not True that we "Always" want to ignore making API calls next in chain,
  * if one of requests in chain fails. So, different situations and more exceptions
- * to handle and appearently, more nested `.then().catch()` code blocks.
+ * to handle and apparently, more nested `.then().catch()` code blocks.
  * 
  * This situations is referred to as `Callbacks Hell`. It really can turn in to a 
  * mess, if you don't take cautions in writing your clean and readable using callback

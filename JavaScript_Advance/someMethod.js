@@ -10,9 +10,9 @@ let arr = ['name','test name', 'testtwo','ship'];
 let found = arr.some((element) => {
   console.log(element) // nam ,test name,  true;  stop iterating
   // if the condition matched it doesn't check for the whole array
-  // benifical where you want to check if a proprty in a whole array exist
+  // beneficial where you want to check if a property in a whole array exist
    return element.includes('test')
 })
 console.log(found) // true
 
-// it doesnot change the original array
+// it doesn't change the original array

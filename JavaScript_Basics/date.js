@@ -1,6 +1,6 @@
 // The Date object in JavaScript is used to work with dates and times.
 
-const date = new Date(); // The date object intilization
+const date = new Date(); // The date object initialization
 console.log(date); // current time and date in your local time zone
 
 const dateWithYear = new Date(2019, 10, 10, 22, 10, 0); // takes year, month, date, hour, minute, second, millisecond as arguments

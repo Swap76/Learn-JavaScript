@@ -6,7 +6,7 @@ for each value of the array (from left-to-right) and the return
 value of the function is stored in an accumulator.
 
 
-    var  pokemon  = ["squirtle", "charmander", "bulbasaur"];
+    var  pokemon  = ["Squirtle", "Charmander", "Bulbasaur"];
     
       
     

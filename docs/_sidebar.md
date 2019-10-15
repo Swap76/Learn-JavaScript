@@ -21,7 +21,7 @@
   - [Destructuring](Javascript_Advance/destructuring.md)
   - [Spread & Rest](Javascript_Advance/spread&rest.md)
   - [Timer Function](Javascript_Advance/timerFunction.md)
-  - [Eventloop](Javascript_Advance/eventloop.md)
+  - [Event loop](Javascript_Advance/eventloop.md)
   - [Promises](Javascript_Advance/promises.md)
   - [fs Module](Javascript_Advance/fsModule.md)
   - [Default Values](Javascript_Advance/defaultValues.md)

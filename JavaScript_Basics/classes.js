@@ -19,7 +19,7 @@ class StudentInfo {
     this.college = "SIES"; // We want the College to be same for all students that's why it is declared outside of constructor
   }
 
-  getNameAndCollege () { // This is a methon in Stdent
+  getNameAndCollege () { // This is a method in Student
     console.log(`${this.name} ${this.college}`);
   }
 }

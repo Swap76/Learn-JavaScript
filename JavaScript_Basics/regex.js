@@ -4,7 +4,7 @@ const re = /abc/i;
 
 // variable re is regex.
 // abc is pattern or character combination
-// modifier (i : case-insensitive, g: global, m: multilie)
+// modifier (i : case-insensitive, g: global, m: multiline)
 
 //Using String search() with a string
 const strOne = "abc edf ghi"; //string
@@ -17,7 +17,7 @@ const resTwo = str.search(/abc/i);  // regex with case-insensitive modifier
 console.log(resTwo); // Output: 0
 
 
-// Test test wether string contains in the stirng or not?
+// Test test wether string contains in the string or not?
 const string = "Learn JavaScript"; // our string
 const reg = /Learn/; // our regex 
 const out = reg.test(string);
@@ -60,7 +60,7 @@ let result = unRegex.test(exampleStr); // Output: true
 
 
 let quoteSample = "3 blind mice.";
-let myRegex = /[^aeiou0-9]/ig; // matches all non digits and non owels in the given string
+let myRegex = /[^aeiou0-9]/ig; // matches all non digits and non vowels in the given string
 let result = quoteSample.match(myRegex); // Output : b, l, n, d m, c, .
 
 let difficultSpelling = "Mississippi";
@@ -69,7 +69,7 @@ let result = difficultSpelling.match(myRegex); // Output : true
 
 // zero or more occurances
 let chewieQuote = "Aaaaaaaaaaaaaaaarrrgh!";
-let chewieRegex = /Aa*/; // matches all the repeated a's in the stirng
+let chewieRegex = /Aa*/; // matches all the repeated a's in the string
 let result = chewieQuote.match(chewieRegex); // Output : true
 
 // lazy matching
@@ -78,7 +78,7 @@ let myRegex = /<h1?>/; // matches all the headings(h1-h6) tags in given string.
 let result = text.match(myRegex); // Output : true
 
 // beginning matching
-let rickyAndCal = "Cal and Ricky both like racing."; //our stirng
+let rickyAndCal = "Cal and Ricky both like racing."; //our string
 let calRegex = /^Cal/; // matches string starting with Cal only
 let result = calRegex.test(rickyAndCal); // Output : true
 
@@ -89,7 +89,7 @@ let result = lastRegex.test(caboose); // Output : true
 
 // exact number of matches
 let timStr = "Timmmmber";
-let timRegex = /Tim{4}ber/; // matches only if m occurs 4 times in a stirng
+let timRegex = /Tim{4}ber/; // matches only if m occurs 4 times in a string
 let result = timRegex.test(timStr); // Output : true
 
 //  All or None

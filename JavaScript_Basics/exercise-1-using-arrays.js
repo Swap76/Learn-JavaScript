@@ -2,7 +2,7 @@ var array = [1, 0.16, "Random", function () {
   console.log("this is function in an array");
 }, { Key: "Answer" }, false];
 
-console.log("Array can cantain anything");
+console.log("Array can contain anything");
 console.log(array);
 // add last
 array.push("add last");

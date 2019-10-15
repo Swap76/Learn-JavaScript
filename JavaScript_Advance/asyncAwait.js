@@ -1,8 +1,8 @@
-// Async Await Flow on JavaSciript
+// Async Await Flow on JavaScript
 
 // the most common case to use async await is to handle promises for fetch request
 
-// When you need to use async keyword needs to add the reserved keyword before the funcion keyword
+// When you need to use async keyword needs to add the reserved keyword before the function keyword
 // this is in case of you use a normal function
 
 async function getUsers () {
