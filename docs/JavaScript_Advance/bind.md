@@ -2,10 +2,10 @@
 *The **bind()** method creates a new function that, when called, has its this keyword set to the provided value, with a given sequence of arguments preceding any provided when the new function is called.*
 
     let  module  = {
-    x:  42,
-    getX:  function() {
-    return  this.x;
-    }
+        x:  42,
+        getX:  function() {
+            return  this.x;
+        }
     }
 
     let  unboundGetX  =  module.getX;
