@@ -21,7 +21,7 @@ const {
 // window location is object provides interface and API to handle client url
 const {
   assign,    /** method to manual switch to another url location.assign(path_to_page) */
-  reload,    /** method to manul reload page(forse reload) */
+  reload,    /** method to manual reload page(forse reload) */
   replace,   /** method similar to assign */
   hash,      /** field represent data in URL after #(hash) symbol */
   host,      /** host value */
