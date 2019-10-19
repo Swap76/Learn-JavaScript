@@ -7,7 +7,11 @@ The two major features of AJAX allow you to do the following:
 - Make requests to the server without reloading the page
 - Receive and work with data from the server
 
-Reference: https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX/Getting_Started
+In a traditional web application, HTTP requests, that are initiated by the user's interaction with the web interface, are made to a web server. The web server processes the request and returns an HTML page to the client. During HTTP transport, the user is unable to interact with the web application.
+![alt text](https://www.ibm.com/support/knowledgecenter/SS8PJ7_9.6.1/com.ibm.etools.webtoolscore.doc/images/traditionalWebAppModel.gif "Traditional web application")
+
+In an Ajax web application, the user is not interrupted in interactions with the web application. The Ajax engine or JavaScript interpreter enables the user to interact with the web application independent of HTTP transport to and from the server by rendering the interface and handling communications with the server on the user's behalf.
+![alt text](https://www.ibm.com/support/knowledgecenter/SS8PJ7_9.6.1/com.ibm.etools.webtoolscore.doc/images/ajaxWebAppModel.gif "Ajax web application")
 
 Example:
 ```html
@@ -42,3 +46,7 @@ Example:
 })();
 </script>
 ```
+
+Reference: 
+- https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX/Getting_Started
+- https://www.ibm.com/support/knowledgecenter/SS8PJ7_9.6.1/com.ibm.etools.webtoolscore.doc/topics/cajax.html
