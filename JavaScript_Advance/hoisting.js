@@ -1,7 +1,7 @@
 /*
-Hoisting is JavaScript's default behavior of moving declarations to the top.
-In JavaScript, a variable can be declared after it has been used.
-In other words; a variable can be used before it has been declared.
+
+Hoisting: Before executing any code, the javscript engine sets up memory for variables and functions.
+variables are assigned undefined by the engine.
 */
 
 //Example 1

@@ -4,8 +4,8 @@
 // first create an Object Person
 // that receive the name and lastName
 
-function Person (name, lastName) {
-  this.name = name
+function Person (firstName, lastName) {
+  this.firstName = firstName
   this.lastName = lastName
 }
 
@@ -13,7 +13,7 @@ function Person (name, lastName) {
 
 // add a method getName that return the name
 Person.prototype.getName = function () {
-  return this.name
+  return this.firstName
 }
 
 // add a method getLastName that return the lastName
@@ -23,7 +23,26 @@ Person.prototype.getLastName = function () {
 
 // add a method getFullName that return the name + lastName
 Person.prototype.getFullName = function () {
-  return this.name + ' ' + this.lastName
+  return this.firstName + ' ' + this.lastName
 }
 
-// this all methods appear in the __proto__ keyword of an Object instance of Person
+// add a method getFormalName
+Person.prototype.getFormalName = function(){
+  return this.lastName + ', ' + this.firstName;
+}
+
+// these methods appear in the __proto__ property of an Object instance of Person
+
+const max = new Person('Max', 'Payne');
+
+console.log(max.getName());
+// [out] Max
+
+console.log(max.getLastName());
+// [out] Payne
+
+console.log(max.getFullName());
+// [out] Max Payne
+
+console.log(max.getFormalName());
+// [out] Payne, Max

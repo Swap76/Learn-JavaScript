@@ -3,6 +3,16 @@
  * `functional programming`. This basically can be concluded to this sentence:
  * You can pass (`closure`) functions as an argument to another function.  
  * 
+ * Higher order functions:-  In javascript, functions can be used as value.
+ * We can assign function to a variable.
+ * Pass them as parameters to another functions.
+ * Return them from a function
+ * 
+ * Callback:- We pass a function as parameters to another function, which calls/invokes
+ * the provided function. Hence the name Callback
+ * 
+ * 
+ * 
  * look at this example:
  */
 
@@ -34,7 +44,7 @@ sayHi(() => { console.log('How are you?') })
      console.log(test)
  }
 
- transformNumber(10, () => {
+ transformNumber(10, (num) => {
      num = num * num;
      test = 3
  })
