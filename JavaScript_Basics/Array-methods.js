@@ -70,3 +70,31 @@ function double(num){
 }
 numbers = numbers.map(double);
 console.log(numbers); //[2,4,6,8,10]
+
+// 12 every() method
+function isAdult(currentAge) {
+  return currentAge >= 18;
+}
+
+var ages = [18, 38, 29, 45, 53];
+var areAdults = ages.every(isAdult); // Return true if every value in the array are >= 18
+console.log(areAdults); // true
+
+// 13 reduceRight() method
+var myArray = [[1, 2], [3, 4], [5, 6]];
+
+const myNewArray = myArray.reduceRight((accumulator, current) => accumulator.concat(current));
+
+console.log(myNewArray); // [ 5, 6, 3, 4, 1, 2 ]
+
+// 14 some() method
+var ages = [18, 38, 7, 45, 53];
+var areAdults = ages.some(isAdult); // Return true if at least one value in the array is >= 18
+console.log(areAdults); // true
+
+// lastIndexOf() method
+var myArray = [3, 38, 58, 19, 3, 4, 7, 28, 3, 29, 98];
+var searchValue = 3;
+
+var lastIndexValue = myArray.lastIndexOf(searchValue);
+console.log(lastIndexValue); // 8
