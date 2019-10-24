@@ -1,32 +1,31 @@
 /*
 Map : Object
-Maps allow associating keys and values similar to normal Objects except Maps allow any Object to be used as a 
+Maps allow associating keys and values similar to normal Objects except Maps allow any Object to be used as a
 key instead of just Strings and Symbols. Maps use get() and set() methods to access the values stored in the Map.
 A Map are often called a HashTable or a Dictionary in other languages.
 */
 
+const map = new Map();
 
-let map = new Map();
-
-map.set('1', 'str1'); // a string key
-map.set(1, 'num1'); // a numeric key
-map.set(true, 'bool1'); // a boolean key
+map.set("1", "str1"); // a string key
+map.set(1, "num1"); // a numeric key
+map.set(true, "bool1"); // a boolean key
 
 // remember the regular Object? it would convert keys to string
 // Map keeps the type, so these two are different:
 alert(map.get(1)); // 'num1'
-alert(map.get('1')); // 'str1'
+alert(map.get("1")); // 'str1'
 
 alert(map.size); // 3
 
-//Map can also use objects as keys.
+// Map can also use objects as keys.
 
-let john = {
-	name: "John"
+const john = {
+  name: "John"
 };
 
 // for every user, let's store their visits count
-let visitsCountMap = new Map();
+const visitsCountMap = new Map();
 
 // john is the key for the map
 visitsCountMap.set(john, 123);
@@ -41,23 +40,23 @@ map.values() – returns an iterable for values,
 map.entries()
 */
 
-let recipeMap = new Map([
-  ['cucumber', 500],
-  ['tomatoes', 350],
-  ['onion',    50]
+const recipeMap = new Map([
+  ["cucumber", 500],
+  ["tomatoes", 350],
+  ["onion", 50]
 ]);
 
 // iterate over keys (vegetables)
-for (let vegetable of recipeMap.keys()) {
+for (const vegetable of recipeMap.keys()) {
   alert(vegetable); // cucumber, tomatoes, onion
 }
 
 // iterate over values (amounts)
-for (let amount of recipeMap.values()) {
+for (const amount of recipeMap.values()) {
   alert(amount); // 500, 350, 50
 }
 
 // iterate over [key, value] entries
-for (let entry of recipeMap) { // the same as of recipeMap.entries()
+for (const entry of recipeMap) { // the same as of recipeMap.entries()
   alert(entry); // cucumber,500 (and so on)
 }

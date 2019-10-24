@@ -1,11 +1,11 @@
 const comparisonOperators = () => {
-  console.log(1 != 2); //inequality operator
-  console.log(1 != "1"); //inequality operator
-  console.log(1 != true); //inequality operator
-  console.log(0 != false); //inequality operator
+  console.log(1 !== 2); // inequality operator
+  console.log(1 != "1"); // inequality operator
+  console.log(1 != true); // inequality operator
+  console.log(0 != false); // inequality operator
   console.log(1 !== 5); // strict typecheck inequality operator
   console.log(5 !== "5"); // strict typecheck inequality operator
-  console.log(1 == 8); // equality operator
+  console.log(1 === 8); // equality operator
   console.log(5 == "5"); // equality operator
   console.log(5 === 5); // strict typecheck equality operator
   console.log(5 === "5"); // strict typecheck equality operator

@@ -16,7 +16,7 @@ console.log(Add(10, 5)); // This Calls the function
 
 // Functions can have a default parameter value.
 // Default value will be used if the argument is not defined.
-function subtract(a, b = 1) {
+function subtract (a, b = 1) {
   const c = a - b;
   return c;
 }
