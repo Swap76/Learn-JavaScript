@@ -6,7 +6,7 @@ console.log(date); // current time and date in your local time zone
 
 // Create a date object
 const dateWithYear = new Date(2019, 10, 10, 22, 10, 0); // takes year, month, date, hour, minute, second, millisecond as arguments
-console.log(dateWithYear); // OUtput : Sun Nov 10 2019 22:10:00 GMT+0530
+console.log(dateWithYear); //OUtput : Sun Nov 10 2019 22:10:00 GMT+0530
 
 const dateString = new Date("October 10, 2019 11:13:00");
 console.log(dateString); // Output : creates a new date object from date string

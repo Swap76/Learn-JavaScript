@@ -4,11 +4,9 @@
   "description": "This repository was made for beginners to start learning Javascript from Scratch",
   "main": "index.js",
   "dependencies": {
-    "express": "^4.17.1",
-    "live-server": "^1.2.1",
     "mongoose": "^5.7.4",
     "pg": "^7.12.1",
-    "docsify-cli": "^4.2.1"
+    "express": "^4.17.1"
   },
   "devDependencies": {
     "eslint": "^6.5.1",
@@ -21,9 +19,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint '**/*.js'",
-    "lint:fix": "eslint '**/*.js' --fix",
-    "serve-docs": "node ./scripts/build-sidebar.js & docsify serve docs"
+    "lint": "eslint **/*.js"
   },
   "repository": {
     "type": "git",

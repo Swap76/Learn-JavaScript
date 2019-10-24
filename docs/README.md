@@ -2,26 +2,8 @@
 
 This repository was made for beginners to start learning Javascript from Scratch
 
-## ESLint
+### Documentation
 
-Lint your js file with eslint	After making your changes or adding your contributions, lint your javascript files with eslint by running following command
+This repository using [Docsify](https://docsify.js.org) for generate documentation website on the fly.
 
-
-```sh	
-$ npm run lint:fix
-```
-
-## Documentation
-
-This repository uses [Docsify](https://docsify.js.org) for generating documentation website on the fly.
-
-**Steps:**
-1. Install `docsify-cli` globally.
-   ```
-   npm i docsify-cli -g
-   ```
-2. Then run the following command to serve the documentation.
-   ```
-   npm run serve-docs
-   ```
-3. Now you can preview documentation site in your browser by visiting `http://localhost:3000`.
+You can run the local server with command `docsify serve docs` and preview documentation site in your browser on http://localhost:3000.
