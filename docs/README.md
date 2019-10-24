@@ -8,7 +8,7 @@ Lint your js file with eslint	After making your changes or adding your contribut
 
 
 ```sh	
-$ npm run lint
+$ npm run lint:fix
 ```
 
 ## Documentation
