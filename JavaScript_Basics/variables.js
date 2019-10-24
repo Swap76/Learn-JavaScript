@@ -1,6 +1,6 @@
 // There is only 3 types of variables in javascript
 
-let a = "Swapnil"; // New type introduced in ES6. Value of let can change any time.
+const a = "Swapnil"; // New type introduced in ES6. Value of let can change any time.
 
 const pi = 3.14;// New type introduced in ES6. Value of pi now cannot be changed as this is defined as const.
 

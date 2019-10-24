@@ -7,30 +7,30 @@ const getAsyncDataWithCallbacks = (string, cb) => {
 };
 
 // Assume we have a number of async operations that need to run in sequence - we need the result to grab the next result.
-getAsyncDataWithCallbacks('foo', firstResult => {
+getAsyncDataWithCallbacks("foo", firstResult => {
   getAsyncDataWithCallbacks(firstResult, secondResult => {
     getAsyncDataWithCallbacks(secondResult, thirdResult => {
-      //on and on and on...
-    })
+      // on and on and on...
+    });
   });
 });
 
-//This is eased via the use of promises. You can change these async calls to return a promise instead that wraps that value like so:
+// This is eased via the use of promises. You can change these async calls to return a promise instead that wraps that value like so:
 const getAsyncDataWithPromises = string => {
   return new Promise((resolve, reject) => {
-    //Assume an async operation here. We'll set a timeout to give an example.
-    //After 5 seconds, our data will resolve.
+    // Assume an async operation here. We'll set a timeout to give an example.
+    // After 5 seconds, our data will resolve.
     setTimeout(() => resolve(`${string} bar`), 1000);
   });
 };
 
-getAsyncDataWithPromises('foo')
+getAsyncDataWithPromises("foo")
   .then(firstSet => getAsyncDataWithPromises(firstSet))
   .then(secondSet => getAsyncDataWithPromises(secondSet));
-//... etc. etc. etc.
+// ... etc. etc. etc.
 
 // Or, a more simplified version using references
-getAsyncDataWithPromises('foo')
+getAsyncDataWithPromises("foo")
   .then(getAsyncDataWithPromises)
   .then(getAsyncDataWithPromises);
 
@@ -38,10 +38,10 @@ getAsyncDataWithPromises('foo')
 // `then` will not be called until a promise's value is resolved. `catch` will only be called if something goes wrong.
 getAsyncDataWithPromises()
   .then(data => {
-    //... use data
+    // ... use data
   }).catch(e => {
-  //... handle exception
-});
+  // ... handle exception
+  });
 
 // promises promise the nodejs main thread that i'm going to come after doing a particular task
 

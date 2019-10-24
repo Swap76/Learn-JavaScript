@@ -6,7 +6,7 @@ Functions that are invoked immediately after definition.
 Can be used as shown below:--
 */
 
-(function(value){
-    var modified = value + 4
-    console.log(modified);
-}(3))
+(function (value) {
+  var modified = value + 4;
+  console.log(modified);
+}(3));
