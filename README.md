@@ -7,7 +7,7 @@ This repository was made for beginners to start learning Javascript from Scratch
 After making your changes or adding your contributions, lint your javascript files with eslint by running following command
 
 ```sh
-$ npm run lint
+$ npm run lint:fix
 ```
 
 ## Documentation
