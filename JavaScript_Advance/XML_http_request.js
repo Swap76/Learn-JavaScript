@@ -14,7 +14,7 @@ const request = isAbort => {
   // when xhr.send is triggered this function gonna trigger until
   // ready state is equal 4 and status code is equal 200
   // to log all response header
-  xhr.onreadystatechange = function() {
+  xhr.onreadystatechange = function () {
     if (this.readyState == 4 && this.status == 200) {
       // all headers
       console.log("all header ==>", this.getAllResponseHeaders());

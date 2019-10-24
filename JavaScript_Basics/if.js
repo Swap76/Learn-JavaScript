@@ -4,11 +4,11 @@
 // the if needs a condition that the result is true and execute the
 // code inside of the if block
 
-const condition = 2 % 2 === 0
+const condition = 2 % 2 === 0;
 
 if (condition) {
   // run this code
-  console.log('YEAH THIS RUN BECAUSE THE CONDITION IS A HARDCODE true')
+  console.log("YEAH THIS RUN BECAUSE THE CONDITION IS A HARDCODE true");
 }
 
 // have a default value if the condition is false
@@ -18,7 +18,7 @@ if (condition) {
   // this block of code is never executed
 } else {
   // run this code
-  console.log('YEAH THIS RUN BECAUSE THE CONDITION IS A HARDCODE false')
+  console.log("YEAH THIS RUN BECAUSE THE CONDITION IS A HARDCODE false");
 }
 
 // and you can make more conditions with an ELSE IF keyword
