@@ -6,7 +6,7 @@ let info = {
   firstName: "Swapnil",
   lastName: "Shinde",
   getFullName: () => {
-    return(`My name is ${this.firstName} ${this.lastName}`); // Arrow functions don't have "this" property
+    return (`My name is ${this.firstName} ${this.lastName}`); // Arrow functions don't have "this" property
   }
 }
 
@@ -17,7 +17,7 @@ let newInfo = {
   firstName: "Swapnil",
   lastName: "Shinde",
   getFullName: () => {
-    return(`My name is ${newInfo.firstName} ${newInfo.lastName}`); // If we are using arrow function then directly use the variables as shown
+    return (`My name is ${newInfo.firstName} ${newInfo.lastName}`); // If we are using arrow function then directly use the variables as shown
   }
 }
 
@@ -39,24 +39,33 @@ console.log((new Student).getName()) // Gives error for node versions before 12.
 
 class StudentInfo {
 
-  constructor (firstName,lastName, age, branch, college){ 
-    this.firstName = firstName; 
+  constructor(firstName, lastName, age, branch, college) {
+    this.firstName = firstName;
     this.lastName = lastName;
-    this.age = age; 
+    this.age = age;
     this.branch = branch;
     this.college = college;
   };
 
   getFullName = () => { // Returns full name using string interpolation
-    return(`My name is ${this.firstName} ${this.lastName}`); // If we are using arrow function then directly use the variables as shown
+    return (`My name is ${this.firstName} ${this.lastName}`); // If we are using arrow function then directly use the variables as shown
   };
 
   getBranch = () => { // Returns Branch 
-    return(this.branch);
+    return (this.branch);
   };
 
 }
 
-let Swapnil = new StudentInfo("Swapnil", "Shinde",19, "Computer", "Sies"); // This way we can create new objects with arguments
+let Swapnil = new StudentInfo("Swapnil", "Shinde", 19, "Computer", "Sies"); // This way we can create new objects with arguments
 
 console.log(Swapnil.getFullName()); // Output My name is Swapnil Shinde
+
+//settimeout with arrow function
+setTimeout(function () {
+  console.log("hello world");
+}, 1000);
+//another example of settimeout with arrow function
+setTimeout(() => {
+  console.log("hello world");
+}, 0);
