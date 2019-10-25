@@ -1,1 +1,0 @@
-# AJAXrequest methods
