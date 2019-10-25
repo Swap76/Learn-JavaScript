@@ -15,9 +15,9 @@ $ npm run lint:fix
 This repository uses [Docsify](https://docsify.js.org) for generating documentation website on the fly.
 
 **Steps:**
-1. Install `docsify-cli` 
+1. Install dependencies
    ```
-   npm i docsify-cli 
+   npm install
    ```
 2. Then run the following command to serve the documentation.
    ```
