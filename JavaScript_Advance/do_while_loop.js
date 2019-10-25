@@ -10,7 +10,7 @@ do {
 
  */
 
-var n = 1;
+let n = 1;
 
 do {
   console.log("n is less than 6. n = " + n);

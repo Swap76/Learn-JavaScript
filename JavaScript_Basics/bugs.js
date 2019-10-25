@@ -1,8 +1,8 @@
-var obj = {
+const obj = {
   name: "Some name"
 };
 
-var name = null;
+const name = null;
 
 console.log(typeof obj); // object;
 console.log(typeof name); // object;

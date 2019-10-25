@@ -1,4 +1,4 @@
-var array = [1, 0.16, "Random", function () {
+const array = [1, 0.16, "Random", function () {
   console.log("this is function in an array");
 }, { Key: "Answer" }, false];
 

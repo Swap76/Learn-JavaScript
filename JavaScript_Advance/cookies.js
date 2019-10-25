@@ -6,7 +6,7 @@ console.log("Simple usage:" + document.cookie);
 // #2 Get a cookie with the name 'actor'
 document.cookie = "movie=Jungle Book";
 document.cookie = "actor=Balu";
-var cookieValue = document.cookie.replace(/(?:(?:^|.*;\s*)actor\s*\=\s*([^;]*).*$)|^.*$/, "$1");
+const cookieValue = document.cookie.replace(/(?:(?:^|.*;\s*)actor\s*\=\s*([^;]*).*$)|^.*$/, "$1");
 console.log("Cookie with the name 'actor':" + cookieValue);
 
 // #3 Set cookie and execute code only once if cookie doesn't exist yet

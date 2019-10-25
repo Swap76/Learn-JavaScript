@@ -62,7 +62,7 @@ transformNumber(10, (num) => {
   * passed to the `resolve()` function, will get passed to the function passed to `.then()`
   * function. Look at the following example from MDN official documents:
   */
-var p1 = new Promise((resolve, reject) => {
+const p1 = new Promise((resolve, reject) => {
   resolve("Success!");
   // or
   // reject(new Error("Error!"));
