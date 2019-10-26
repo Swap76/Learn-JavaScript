@@ -79,15 +79,15 @@ asyncCall
   // console logs 'foo bar'
   .then(console.log);
 
-//promise.all();\
-const fs = require('fs');
-const dir = __dirname + '/text/';
-var promisesarray = ["Text file content start after this : "];
-function readfile() {
-  fs.readdir(dir, 'utf-8', (err, File) => {
+// promise.all();\
+const fs = require("fs");
+const dir = __dirname + "/text/";
+const promisesarray = ["Text file content start after this : "];
+function readfile () {
+  fs.readdir(dir, "utf-8", (err, File) => {
     File.forEach(file => {
       promisesarray.push(new Promise((resolve, reject) => {
-        fs.readFile(dir + file, 'utf-8', (err, data) => {
+        fs.readFile(dir + file, "utf-8", (err, data) => {
           if (err) reject(err);
           else resolve(data);
         });
@@ -95,7 +95,7 @@ function readfile() {
     });
     Promise.all(promisesarray).then(data => {
       console.log(data);
-    })
+    });
   });
 }
 readfile();
