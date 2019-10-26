@@ -15,3 +15,7 @@ The splice() method removes items from array and/or adds items to array and retu
 The concat() method returns a new array of two or more arrays joined together.
 
 The slice() method returns a new array from a selected range.
+
+The unshift() method Add elements at the front of an Array.
+
+The every() function is used when you need to validate each element of a given array.
