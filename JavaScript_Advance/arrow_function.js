@@ -61,11 +61,12 @@ let Swapnil = new StudentInfo("Swapnil", "Shinde", 19, "Computer", "Sies"); // T
 
 console.log(Swapnil.getFullName()); // Output My name is Swapnil Shinde
 
-//settimeout with arrow function
+//settimeout without arrow function
 setTimeout(function () {
   console.log("hello world");
 }, 1000);
-//another example of settimeout with arrow function
+
+//settimeout with arrow function
 setTimeout(() => {
   console.log("hello world");
 }, 0);
