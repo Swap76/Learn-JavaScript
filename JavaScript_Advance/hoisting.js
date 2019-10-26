@@ -24,3 +24,10 @@ elem.innerHTML = x; // Display x in the element
 so, Hoisting is JavaScript's default behavior of moving all declarations to the top of the current scope
 (to the top of the current script or the current function)
 */
+
+console.log(foo);
+let foo = 'foo'; //unable to print due to the hoisting behaviour
+
+console.log(ok);
+var ok = 'this is printing'//var is hoisted
+
