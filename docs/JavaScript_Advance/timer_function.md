@@ -1,11 +1,6 @@
-
 # Timer function
 
-  
-
 Timer function allows us to execute a code at specified time intervals.
-
-  
 
 There are two imporant methods : 
 1.  setInterval(function, milliseconds) 
@@ -111,7 +106,7 @@ SetInterval is Called
 
 ```
 
-  ## Stopping the timer or Cancelling the setInterval method 
+## Stopping the timer or Cancelling the setInterval method 
 
 We can stop the interval and timeout using `clearInterval` method.   It uses the variable returned from `setInterval`
 
