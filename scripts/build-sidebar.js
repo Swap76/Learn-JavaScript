@@ -1,42 +1,41 @@
-const fs = require('fs');
+const fs = require("fs");
 
-const documentationFolder = 'docs';
+const documentationFolder = "docs";
 
-async function getFiles(directory) {
-	const files = [];
-	const dir = fs.opendirSync(directory);
+async function getFiles (directory) {
+  const files = [];
+  const dir = fs.opendirSync(directory);
 
-	for await (const dirent of dir) {
-		files.push(dirent.name);
-	}
+  for await (const dirent of dir) {
+    files.push(dirent.name);
+  }
 
-	return files.sort();
+  return files.sort();
 }
 
-function filenameToTitle(filename) {
-	return filename.split('.').shift().replace(/_/g, ' ');
+function filenameToTitle (filename) {
+  return filename.split(".").shift().replace(/_/g, " ");
 }
 
-async function buildSection(directory) {
-	const files = await getFiles(`${documentationFolder}/${directory}`);
-	const title = filenameToTitle(directory);
-	const content = [ `- ${title}` ];
+async function buildSection (directory) {
+  const files = await getFiles(`${documentationFolder}/${directory}`);
+  const title = filenameToTitle(directory);
+  const content = [`- ${title}`];
 
-	for (let file of files) {
-		content.push(`\t- [${filenameToTitle(file)}](${directory}/${file})`);
-	}
+  for (const file of files) {
+    content.push(`\t- [${filenameToTitle(file)}](${directory}/${file})`);
+  }
 
-	return content.join('\n');
+  return content.join("\n");
 }
 
-async function buildSidebar(watchEventType) {
-	if (watchEventType == 'change')
-		return;
+async function buildSidebar (watchEventType) {
+  if (watchEventType == "change") { return; }
 
-	console.log('Building _sidebar.md');
-	const content = await buildSection('JavaScript_Basics') + '\n' + await buildSection('JavaScript_Advance');
+  console.log("Building _sidebar.md");
+  const content = await buildSection("JavaScript_Basics") + "\n" + await buildSection("JavaScript_Advance");
 
-	fs.writeFileSync(`${documentationFolder}/_sidebar.md`, content);
+  fs.writeFileSync(`${documentationFolder}/_sidebar.md`, content);
 }
 
 fs.watch(`${documentationFolder}/JavaScript_Basics`, buildSidebar);

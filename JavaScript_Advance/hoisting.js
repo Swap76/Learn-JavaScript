@@ -26,8 +26,7 @@ so, Hoisting is JavaScript's default behavior of moving all declarations to the 
 */
 
 console.log(foo);
-let foo = 'foo'; //unable to print due to the hoisting behaviour
+const foo = "foo"; // unable to print due to the hoisting behaviour
 
 console.log(ok);
-var ok = 'this is printing'//var is hoisted
-
+var ok = "this is printing";// var is hoisted
