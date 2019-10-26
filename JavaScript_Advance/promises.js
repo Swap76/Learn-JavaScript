@@ -82,7 +82,7 @@ asyncCall
 // promise.all();\
 const fs = require("fs");
 const dir = __dirname + "/text/";
-var promisesarray = ["Text file content start after this : "];
+const promisesarray = ["Text file content start after this : "];
 function readfile () {
   fs.readdir(dir, "utf-8", (err, File) => {
     File.forEach(file => {

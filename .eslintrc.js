@@ -6,6 +6,7 @@ module.exports = {
     "quotes": ["error", "double"],
     "semi": ["error", "always"],
     "eol-last": ["error", "never"],
-    "no-multiple-empty-lines": ["error", { max: 1 }]
+    "no-multiple-empty-lines": ["error", { max: 1 }],
+    "no-var": ["error"]
   }
 };

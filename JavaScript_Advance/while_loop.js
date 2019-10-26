@@ -17,7 +17,7 @@ while (n < 6) {
   n++;
 }
 
-var sum = 1;
+let sum = 1;
 do {
   console.log(`sum now is ${sum++}`);
 } while (sum <= 100);
