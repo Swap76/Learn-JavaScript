@@ -56,7 +56,7 @@ app.use(express.json());
 ```
 app.use(routes);
 ```
-## How to start nodejs server?
+## How to start NodeJS server?
 ```js
 app.listen(port, () => console.log(`Server running in port ${port}`));
 ```
