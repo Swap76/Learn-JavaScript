@@ -7,6 +7,6 @@ Can be used as shown below:--
 */
 
 (function (value) {
-  var modified = value + 4;
+  const modified = value + 4;
   console.log(modified);
 }(3));

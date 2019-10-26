@@ -10,7 +10,7 @@
 
  */
 
-var n = 1;
+let n = 1;
 
 while (n < 6) {
   console.log("n is less than 6. n = " + n);
