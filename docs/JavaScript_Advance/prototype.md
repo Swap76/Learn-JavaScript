@@ -8,7 +8,7 @@ Let's look at a basic example. When you create an object `car` using the `{}` no
 
 Let's see if we can invoke or call those functions against our object which is the `car`.
 
-```javascript=
+```javascript
 // lets create the car object
 let car = {
     make: 'Audi',
@@ -28,7 +28,7 @@ As you can see in the code snippet above, we have not created those functions bu
 
 Let us take another example. This time we will create a constructor function `Person` and attach additional methods to the prototype to add additional features.
 
-```javascript=
+```javascript
 // Prototypes are an extension for objects in javascript
 // we use to encapsulate certain functionality to an Object (like a Class)
 
@@ -90,7 +90,7 @@ The diagram above shows that `max` has a `__proto__` which is pointing to the `p
 
 Looks similar, let us compare. Enter following code in the console (only after you have already executed the Person and max related code snippet above)
 
-```javascript=
+```javascript
 max.__proto__ === Person.prototype
 // [out] true
 ``` 
