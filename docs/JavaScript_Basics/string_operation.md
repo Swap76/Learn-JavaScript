@@ -15,12 +15,15 @@ First way of doing string concatenation is using **+** operator
 const name = "Richard";
 
 const text = "Hello " + name; 
+
 console.log(text);  // Hello Richard
 ``` 
 Or using **template literals**. More convenient way for manipulating strings contains many variables.
 ```javascript
 const name = "Richard";
+
 // Use backticks ( ` ) inside quotes and put variables inside ${}
 const text = `Hello ${Richard}`;
+
 console.log(text);  // Hello Richard
 ```
