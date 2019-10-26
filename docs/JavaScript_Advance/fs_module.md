@@ -25,13 +25,13 @@ content.on("open", () => {
 });
 ```
 We can also listen to an event called `data` that will be called when data is present.
-```fs
+```js
 content.on("data", (data) => {
   console.log(data);
 });
 ```
 We can also listen to the event when a file is closed.
-```fs
+```js
 content.on("close", () => {
   console.log("File ends");
 });
