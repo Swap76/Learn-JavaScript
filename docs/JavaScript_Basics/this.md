@@ -35,7 +35,7 @@ printX(); /* its like this.printX() or window.printX() */
 
 /* Output
 10  /* this refers to global object so prints 10 */
- */
+*/
 ```
 
 ## 'this' in function - strict mode
@@ -43,7 +43,6 @@ printX(); /* its like this.printX() or window.printX() */
 if `use strict` mode is enabled, `this` don't refer to the global object by default. It gives `undefined` when a function is called without explicitly using `this`
 
 ```javascript
-
 // setInterval This runs a code after specific interval of time till we stop the timer.
 `use strict'
 var x =10;
@@ -54,12 +53,10 @@ function printX() {
 this.printX();
 printX(); 
 
-
 /* Output
 10 		// printX() called with this 
  Uncaught TypeError: Cannot read property 'x' of undefined // printX() called without this 
  */
-
 ```
 
   ## 'this' in a method 
