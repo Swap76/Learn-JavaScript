@@ -1,5 +1,5 @@
 # IF, ELSE IF, ELSE CONDITION
-Conditional statements run specific blocks of code based on certain perimeters that you set. Like other code it reads top to bottom so the order that you put your conditions in matter.
+Conditional statements run specific blocks of code based on certain parameters that you set. Like other code it reads top to bottom so the order that you put your conditions in matter.
 
 Example of an if/else if/else:
 ```
@@ -11,7 +11,7 @@ if(this statement is true){
   do this
 }
 ```
-If's always come first and have a set of parenthesis with a statement in them that you are checking to see if it's true, if it is the code in the curly brackets is run, otherwise it would move on to the else if and see if that statement is true. If it is then it runs that block of code, if not then it would run the code in the else statement. Once a statement is deemed true and the code is run it doesn't continue to read through the code even if there is a more accurate  statement lower down. A good example of where this matters would be the common coding challenge fizzbuzz. The idea of fizzbuzz is that you want to log all the numbers from 1-100 however if it's divisible by 3 print "fizz", 5 print "buzz", and if it's divisible by both 3 and 5 print "fizzbuzz".
+`If` always comes first and have a set of parenthesis with a statement in them that you are checking to see if it's true. If it is, the code in the curly brackets is run, otherwise it would move on to the `else if`, and see if that statement is true. If `else if` is true then it runs that block of code, if not then it would run the code in the `else` statement. Once a statement is deemed true and the code is run it doesn't continue to read through the code even if there is a more accurate  statement lower down. A good example of where this matters would be the common coding challenge fizzbuzz. The idea of fizzbuzz is that you want to log all the numbers from 1-100 however if it's divisible by 3 print "fizz", 5 print "buzz", and if it's divisible by both 3 and 5 print "fizzbuzz".
 If we write our if's the way the problem is stated we would would write:
 ```
 if(num % 3 == 0){
@@ -39,7 +39,7 @@ if(num % 3 == 0 && num % 5 == 0){
 ```
 
 ## What if we don't write else if but just another if?
-Sometimes you see code that has a number of if's in a row but no else if's or else's in this case it's checking each condition in that case each if
+Sometimes you see code that has a number of `if`'s in a row but no `else if`'s or `else`'s in this case it's checking each condition in that case each `if`
 
 This code will only print "it's a number":
 ```
@@ -62,7 +62,7 @@ console.log("it's even")
 ```
 
 ## What if we only have an if?
-If there is only one if then it only does that code if the condition is true and nothing if it's false.
+If there is only one `if` then it only does that code `if` the condition is true and nothing if it's false.
 
 For example:
 ```
@@ -71,4 +71,4 @@ console.log("it's even")
 }
 console.log(number)
 ```
-In this case if `number` is even it will print it's even and it will always print the number. 
+In this case if `number` is even it will print it's even and it will always print the number.
