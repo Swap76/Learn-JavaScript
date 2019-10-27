@@ -71,4 +71,4 @@ console.log("it's even")
 }
 console.log(number)
 ```
-In this case if `number`
+In this case if `number` is even it will print it's even and it will always print the number. 
