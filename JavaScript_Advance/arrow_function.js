@@ -1,6 +1,18 @@
 let a = () => {
   // This is arrow function came new in ES6
+  //It assigns the function to variable a as the identifier with let instead and adds arrows before the curly braces. 
+  
 };
+
+
+let multiply = (num) => num * num 
+ 
+//arrow functions also works without curly braces {} and can directly write expression after the arrows 
+// this is known as concise body as opposed to a block body (with {});
+//cannot be used with if statements, or an error will appear since it only takes one expression; 
+//ternary operators can be used with arrow functions as a more concise way to write if statements 
+
+
 
 let info = {
   firstName: "Swapnil",
@@ -9,6 +21,8 @@ let info = {
     return (`My name is ${this.firstName} ${this.lastName}`); // Arrow functions don't have "this" property
   }
 }
+//not having this. binding means it also cannot be called with new and used as a constructor 
+
 
 console.log(info.getFullName());
 // Output My name is undefined undefined that's why we don't use this with arrow function
@@ -31,7 +45,7 @@ class Student {
   }
 
   getName = () => {
-    return this.name;
+    return this.name; 
   }
 }
 
@@ -69,4 +83,4 @@ setTimeout(function () {
 //settimeout with arrow function
 setTimeout(() => {
   console.log("hello world");
-}, 0);
+}, 0); //arrow functions provide better readability
