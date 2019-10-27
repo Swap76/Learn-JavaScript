@@ -2,7 +2,7 @@
 Conditional statements run specific blocks of code based on certain parameters that you set. Like other code it reads top to bottom so the order that you put your conditions in matter.
 
 Example of an if/else if/else:
-```
+```js
 if(this statement is true){
   do this
 } else if (this statement is true){
@@ -26,7 +26,7 @@ if(num % 3 == 0){
 ```
 In this case every time we'd hit a number that should print fizzbuzz we'd get fizz because that is a truthful statement and it's not looking for a more correct answer.
 To account for that we'd want to adjust our statement order to:
-```
+```js
 if(num % 3 == 0 && num % 5 == 0){
   console.log("fizzbuzz")
 } else if(num % 5 == 0){
@@ -42,7 +42,7 @@ if(num % 3 == 0 && num % 5 == 0){
 Sometimes you see code that has a number of `if`'s in a row but no `else if`'s or `else`'s in this case it's checking each condition in that case each `if`
 
 This code will only print "it's a number":
-```
+```js
 var number = 2
 if(typeof number === "number"){
 console.log("it's a number")
@@ -51,7 +51,7 @@ console.log("it's even")
 }
 ```
 However this code will print both "it's a number" and "it's even"
-```
+```js
 var number = 2
 if(typeof number === "number"){
 console.log("it's a number")
@@ -65,7 +65,7 @@ console.log("it's even")
 If there is only one `if` then it only does that code `if` the condition is true and nothing if it's false.
 
 For example:
-```
+```js
 if(number % 2 === 0){
 console.log("it's even")
 }
