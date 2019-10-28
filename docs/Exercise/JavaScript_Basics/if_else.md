@@ -1,3 +1,17 @@
+**Write** a JavaScript program to determine if a number is positive, negative, or zero.
+
+**Example Input**:
+
+6  
+0  
+-20
+
+**Expected Output**:
+
+"positive"  
+"zero"  
+"negative"  
+
 ### Look up how to get the current time in Javascript. Based on this, create a series of if-else statements that will check against the current time and print either: 
 
 - "Good morning!" if it's from 6:00am-12:00pm
