@@ -101,7 +101,7 @@ SwapnilInfo.getNameAndCollege();
 
 ### Static methids
 
-It's also possible to define define **[static methods](https://developer.mozilla.org/en-US/docs/Glossary/Static_method)**, [static methods](https://developer.mozilla.org/en-US/docs/Glossary/Static_method) can be called without needing to instantiate the class, for example
+It's also possible to define define **[static methods](https://developer.mozilla.org/en-US/docs/Glossary/Static_method)**, [static methods](https://developer.mozilla.org/en-US/docs/Glossary/Static_method) can be called without needing to instantiate the class, for instance:
 
 ```javascript
 class StudentInfo {
@@ -143,7 +143,7 @@ class StudentInfo {
     console.log (`${this.name}`);
   }
 
-  set college() {
+  set college(college) {
     this.college = college.toUpperCase();
   }
 
