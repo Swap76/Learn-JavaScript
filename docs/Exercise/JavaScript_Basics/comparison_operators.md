@@ -1,11 +1,13 @@
 ### Comparison Operators Exercises
 
+***Note: __ = blank**
 
-**1. Choose the correct comparison operator to alert true, when x is greater than y.**
+
+**1. Fill in the blank with the correct comparison operator to alert true, when x is greater than y.**
 
     x = 10;  
     y = 5;  
-    alert(x :white_medium_square: y);  
+    alert(x __ y);  
 
 <details>
 <summary>SHOW ANSWER</summary>
@@ -13,11 +15,11 @@
 </details>
 
 
-**2. Choose the correct comparison operator to alert true, when x is equal to y.**
+**2. Fill in the blank with the correct comparison operator to alert true, when x is equal to y.**
 
     x = 10;  
     y = 10;  
-    alert(x :white_medium_square: y);  
+    alert(x __ y);  
 
 <details>
 <summary>SHOW ANSWER</summary>
@@ -25,11 +27,11 @@
 </details>
 
 
-**3. Choose the correct comparison operator to alert true, when x is NOT equal to y.**
+**3. Fill in the blank with the correct comparison operator to alert true, when x is NOT equal to y.**
 
     x = 10;  
     y = 5;  
-    alert(x :white_medium_square: y); 
+    alert(x __ y); 
 
 <details>
 <summary>SHOW ANSWER</summary>
@@ -37,10 +39,10 @@
 </details>
 
 
-**4. Choose the correct conditional (ternary) operator to alert "Too young" if age is less than 18, otherwise alert "Old enough".**
+**4. Fill in the three blanks with the correct conditional (ternary) operators to alert "Too young" if age is less than 18, otherwise alert "Old enough".**
 
     var age = n;  
-    var votingStatus = (age :white_medium_square: 18) :white_medium_square: "Too young" :white_medium_square: "Old enough";  
+    var votingStatus = (age __ 18) __ "Too young" __ "Old enough";  
     alert(votingStatus);  
 
 <details>
@@ -109,7 +111,7 @@ true
 </details>
     
 
-**11. What will the value of color be after the following statemnt is executed?**
+**11. What will the value of the variable color be after the following statement is executed?**
 
     var color = 5 < 10 ? "red" : "blue";
 
