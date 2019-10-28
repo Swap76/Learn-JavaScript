@@ -6,10 +6,10 @@ for each value of the array (from left-to-right) and the return
 value of the function is stored in an accumulator.
 
 ```js
-    var  pokemon  = ["Squirtle", "Charmander", "Bulbasaur"];
+    var  pokemon = ["Squirtle", "Charmander", "Bulbasaur"];
     
-    var  pokeLength  = pokemon.reduce(function(previous, current) {
-        return  previous  +  current.length;
+    var  pokeLength  = pokemon.reduce(function(accumulator, current) {
+        return  accumulator  +  current.length;
     }, 0);
 ```
 **Output**
