@@ -7,10 +7,10 @@ const person = {
 }
 ```
 Write code to iterate through `person` object and output something like
-```
-// person.name = John Doe
-// person.age = 26
-// person.gender = Male
+```js
+person.name = John Doe
+person.age = 26
+person.gender = Male
 ```
 
 2. Given the following code
@@ -27,6 +27,6 @@ const dog = new Dog(2);
 ```
 
 Write code to iterate through `dog` object and output something like
-```
-// dog.age = 2
+```js
+dog.age = 2
 ```
