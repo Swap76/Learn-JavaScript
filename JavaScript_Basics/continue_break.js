@@ -13,24 +13,24 @@ while (helloWorld.length > 0) {
 
 const color = "red";
 switch (color) {
-  case "red":
-  case "yellow":
-  case "blue":
-    console.log(color + " is a primary color");
-    break;
-  case "green":
-  case "purple":
-  case "orange":
-    console.log(color + " is a secondary color");
-    break;
-  default:
-    console.log("Sorry, I don't know this color...");
-    break;
+case "red":
+case "yellow":
+case "blue":
+  console.log(color + " is a primary color");
+  break;
+case "green":
+case "purple":
+case "orange":
+  console.log(color + " is a secondary color");
+  break;
+default:
+  console.log("Sorry, I don't know this color...");
+  break;
 }
 // Will output: *'red is a primary color'*.
 
-let array = [1, 2, 3, 4, 5];
-let array2 = [];
+const array = [1, 2, 3, 4, 5];
+const array2 = [];
 firstFor: for (let i = 0; i < array.length; i++) {
   for (let j = 0; j < array.length; j++) {
     if (array[i] * array[j] > 5) { break firstFor; }
@@ -50,7 +50,7 @@ for (let i = 0; i < 5; i++) {
 console.log(result1);
 // Will output: *0124*, the digit `3` is ommited because of the continue statement.
 
-let result2 = [];
+const result2 = [];
 firstFor: for (let i = 0; i < 5; i++) {
   let numbers = "";
   for (let j = 0; j < 2; j++) {

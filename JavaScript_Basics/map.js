@@ -1,5 +1,5 @@
 // Let's create an array of numbers that we want to get the square of each number in the array
-var numbers = [1, 2, 3, 4, 5];
+const numbers = [1, 2, 3, 4, 5];
 
 // pass a function to map
 const square = numbers.map(function (num) {

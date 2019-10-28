@@ -12,13 +12,13 @@
 
 Syntax;
 switch (expression) {
-  case x:
-    // code block
-    break;
-  case y:
-    // code block
-    break;
-  default:
+case x:
+  // code block
+  break;
+case y:
+  // code block
+  break;
+default:
       // code block
 }
 
@@ -35,26 +35,26 @@ switch (expression) {
 // This example uses the weekday number to calculate the weekday name:
 
 switch (new Date().getDay()) {
-  case 0:
-    day = "Sunday";
-    break;
-  case 1:
-    day = "Monday";
-    break;
-  case 2:
-    day = "Tuesday";
-    break;
-  case 3:
-    day = "Wednesday";
-    break;
-  case 4:
-    day = "Thursday";
-    break;
-  case 5:
-    day = "Friday";
-    break;
-  case 6:
-    day = "Saturday";
+case 0:
+  day = "Sunday";
+  break;
+case 1:
+  day = "Monday";
+  break;
+case 2:
+  day = "Tuesday";
+  break;
+case 3:
+  day = "Wednesday";
+  break;
+case 4:
+  day = "Thursday";
+  break;
+case 5:
+  day = "Friday";
+  break;
+case 6:
+  day = "Saturday";
 }
 
 /**
@@ -81,14 +81,14 @@ switch (new Date().getDay()) {
 // If today is neither Saturday (6) nor Sunday (0), write a default message:
 
 switch (new Date().getDay()) {
-  case 6:
-    text = "Today is Saturday";
-    break;
-  case 0:
-    text = "Today is Sunday";
-    break;
-  default:
-    text = "Looking forward to the Weekend";
+case 6:
+  text = "Today is Saturday";
+  break;
+case 0:
+  text = "Today is Sunday";
+  break;
+default:
+  text = "Looking forward to the Weekend";
 }
 
 // The result of text will be:
@@ -99,15 +99,15 @@ switch (new Date().getDay()) {
 // Example
 
 switch (new Date().getDay()) {
-  default:
-    text = "Looking forward to the Weekend";
-    break;
-  case 6:
-    text = "Today is Saturday";
-    break;
-  case 0:
-    text = "Today is Sunday";
- }
+default:
+  text = "Looking forward to the Weekend";
+  break;
+case 6:
+  text = "Today is Saturday";
+  break;
+case 0:
+  text = "Today is Sunday";
+}
 
 // If default is not the last case in the switch block, remember to end the default case with a break.
 
@@ -119,16 +119,16 @@ switch (new Date().getDay()) {
 // Example
 
 switch (new Date().getDay()) {
-  case 4:
-  case 5:
-    text = "Soon it is Weekend";
-    break;
-  case 0:
-  case 6:
-    text = "It is Weekend";
-    break;
-  default:
-    text = "Looking forward to the Weekend";
+case 4:
+case 5:
+  text = "Soon it is Weekend";
+  break;
+case 0:
+case 6:
+  text = "It is Weekend";
+  break;
+default:
+  text = "Looking forward to the Weekend";
 }
 
 // Switching Details
@@ -150,14 +150,14 @@ switch (new Date().getDay()) {
 Example:
 var x = "0";
 switch (x) {
-  case 0:
-    text = "Off";
-    break;
-  case 1:
-    text = "On";
-    break;
-  default:
-    text = "No value found";
+case 0:
+  text = "Off";
+  break;
+case 1:
+  text = "On";
+  break;
+default:
+  text = "No value found";
 }
 
 /** Exercise for You Complete it */
@@ -165,11 +165,11 @@ switch (x) {
 // Create a switch statement that will alert "Hello" if fruits is "banana", and "Welcome" if fruits is "apple".
 
 switch (fruits) {
-  case "Banana":
-    alert("Hello");
-    break;
+case "Banana":
+  alert("Hello");
+  break;
 
-  case "Apple":
-    alert("Welcome");
-    break;
+case "Apple":
+  alert("Welcome");
+  break;
 }
