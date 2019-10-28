@@ -26,5 +26,11 @@ Objects are variables too. But objects can contain many values.
 The values are written as name : value pairs (name and value separated by a colon).
 
 Example:
-var person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
-
+```js
+var person = {  
+                firstName:"John", 
+                lastName:"Doe", 
+                age:50, 
+                eyeColor:"blue"
+            };
+```
