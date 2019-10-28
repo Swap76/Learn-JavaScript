@@ -1,0 +1,1 @@
+**Write** a Javascript function called Vehicle that has variables [Make and Model] in it. Then write another function called Car that calls Vehicle function and also add  two more variables [Body and Trim]. Once that is done you can call  Car function and see that it inherits from Vehicle.
