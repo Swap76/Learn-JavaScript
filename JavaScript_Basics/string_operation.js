@@ -13,3 +13,11 @@ console.log(oldBio); // My college is SIESGST. Our seniors and alumnus are best 
 console.log(bio); // My college is SIESGST. Our seniors and alumnus are best in Mumbai My name is Swapnil Satish Shinde I belong to Computer Science branch
 
 // Output by both the methods is same but string interpolation is more beautiful as we only have to right 1 line for all we want
+
+/** Capitalizing a string
+ *
+ * Here's a simple way to capitalize a string
+ */
+String.prototype.capitalize = (string) => string.slice(0, 1).toUpperCase() + string.slice(1)
+console.log("a casual lower case string")
+// Prints out: "A casual lower case string"
