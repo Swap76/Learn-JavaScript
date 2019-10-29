@@ -13,7 +13,10 @@ Math.min(50, 50, 810, 2200, -900); // will return -900
 Math.max(230, 250, 10, 300, -900); // will return 300
 
 // round function
-Math.random(); // returns a random number
+Math.round(5.899); 
+
+// returns a random number that is not an integer between 1 to 10.
+Math.random() * (10 - 1) + 1;
 
 // Defining variables to carry out the mathematical functions on.
 value1 = 10;
