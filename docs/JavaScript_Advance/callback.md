@@ -1,7 +1,7 @@
-### Callback Functions
-Callback functions are derived from a programming paradigm called 
+# Callback Functions
+Callback functions are derived from a programming paradigm called
 `functional programming`. This basically can be concluded to this sentence:
-You can pass (`closure`) functions as an argument to another function.  
+You can pass (`closure`) functions as an argument to another function.
 
 look at this example:
 
@@ -17,11 +17,11 @@ sayHi(() => { console.log('How are you?') })
 ```
 
 
-If you look at the way we called `sayHi`, you will see that, we have not called 
+If you look at the way we called `sayHi`, you will see that, we have not called
 the function which is going to print `'How are you?'`, we have not even named it (Anonymous function)
 This is the prototype of the function. The passed function, will act as if it has been defined
 inside the `sayHi` function. Therefore, you can assume that your function has access to the scope
-of the other function. 
+of the other function.
 
 example:
 
@@ -44,22 +44,22 @@ example:
  // [out] 100
  // [out] 3
 ```
- 
+
  One of very common uses of callback functions, is in `Promises`.
  I suggest you read `promises.js` file, before continuing this section.
  If you know about javascript `Promise` concept, you should be familiar with
  `.then()` and `.catch()` functions. These are `Promise`'s prototype methods.
- When a promise gets resolved (when `.resolve()` gets called), all the arguments 
+ When a promise gets resolved (when `.resolve()` gets called), all the arguments
  passed to the `resolve()` function, will get passed to the function passed to `.then()`
  function. Look at the following example from MDN official documents:
- 
+
  ```javascript
  var p1 = new Promise((resolve, reject) => {
     resolve('Success!');
     // or
     // reject(new Error("Error!"));
   });
-  
+
   p1.then(value => {
     console.log(value); // Success!
   }, reason => {
@@ -72,7 +72,7 @@ So, basically the function that we pass to `.then()` function, is a `callback` f
 We see usage of `Promise` widely in different API call scenarios.
 Different HTTP libraries (`fetch, axios, ...`), use javascript `Promise` object,
 for handling `onSuccess` and `onError` scenarios when calling an API endpoint.
-When you make an API call, if everything goes well and server's response has some 
+When you make an API call, if everything goes well and server's response has some
 2xx status code, this API call will be considered as `success` and otherwise, it has `failed`,
 and some `error` messages should be returned.
 
@@ -126,7 +126,7 @@ axios({
 ```
 
 You can see that sometimes, we need to make API calls that rely on
-response of some other API call, therefore we need to make those calls 
+response of some other API call, therefore we need to make those calls
 in order, and also, if one of these API calls somewhere in this chain fails,
 we do not want to continue making next API calls.
 This specific scenario, can be extended in real lif usage of APIs. You might
@@ -136,7 +136,7 @@ it is not True that we "Always" want to ignore making API calls next in chain,
 if one of requests in chain fails. So, different situations and more exceptions
 to handle and apparently, more nested `.then().catch()` code blocks.
 
-This situations is referred to as `Callbacks Hell`. It really can turn in to a 
+This situations is referred to as `Callbacks Hell`. It really can turn in to a
 mess, if you don't take cautions in writing your clean and readable using callback
 functions. To solve this issue, one might advise to use `async` `await` syntaxes,
 instead of using callback functions. This approach also have pros and cons. One of
