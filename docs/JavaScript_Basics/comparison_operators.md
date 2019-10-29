@@ -1,6 +1,7 @@
 # Comparison Operators
 Javascript has 2 comparison operators, equality `==` and identity/strict equality `===`.
-### Equality
+
+## Equality
 Equality operator (`==` and `!=`) converts operands if they are not the same type.
 
 Example:
@@ -14,7 +15,7 @@ Example:
 '' == 0 //return true
 null == undefined //return true
 ```
-### Identity
+## Identity
 Identity operator (`===` and `!==`) behave like equality operator except no type conversion done.
 
 Example:

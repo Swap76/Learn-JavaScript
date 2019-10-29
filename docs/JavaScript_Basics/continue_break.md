@@ -1,4 +1,4 @@
-# Continue / Break
+# Continue & Break
 
 ## Where to use them
 

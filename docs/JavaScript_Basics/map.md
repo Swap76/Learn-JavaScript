@@ -1,4 +1,4 @@
-# Array.prototype.map()
+# Map Function
 
 We can use `map()` when we want to manipulate each data inside an array without changing the values of the original array.
 

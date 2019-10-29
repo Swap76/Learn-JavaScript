@@ -1,3 +1,5 @@
+# Browser Object Model
+
 ## What we can do using BOM Model
 -The Browser Object Model (BOM) is used to interact with the browser.
 -The Browser Object Model (BOM) allows JavaScript to "talk to" the browser.
@@ -15,4 +17,3 @@
 -Move some the CSS and JavaScript code of your first screen to the top of your code for faster loading.
 -Where you can, use CSS3 effects in place of JavaScript.
 -Cache it.
-

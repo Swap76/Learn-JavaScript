@@ -1,10 +1,9 @@
-
-# 'this' keyword 
+# This
 
 JavaScript's 'this' keyword refers to the object it belongs to. It's values depends on where it is used.
 
-  
-## 'this' as global variable
+
+## This as global variable
 If `this` is used alone, it refers to a global object. In browsers it refers to Window Object as Global Object.
 
 ```javascript
@@ -38,7 +37,7 @@ printX(); /* its like this.printX() or window.printX() */
 */
 ```
 
-## 'this' in function - strict mode
+## This in function - strict mode
 
 if `use strict` mode is enabled, `this` don't refer to the global object by default. It gives `undefined` when a function is called without explicitly using `this`
 
@@ -51,15 +50,15 @@ function printX() {
 	console.log(this.x)
 }
 this.printX();
-printX(); 
+printX();
 
 /* Output
-10 		// printX() called with this 
- Uncaught TypeError: Cannot read property 'x' of undefined // printX() called without this 
+10 		// printX() called with this
+ Uncaught TypeError: Cannot read property 'x' of undefined // printX() called without this
  */
 ```
 
-  ## 'this' in a method 
+  ## 'this' in a method
 
 In JavaScript, `this` in a method refers to the object of which the method belongs to.  In below example, the `printX` method belongs to person object. so `this` refers to person object.
 
@@ -74,15 +73,15 @@ var person = {
 person.printX();
 
 /* Output
- Jenny	
+ Jenny
 */
 ```
 
 ## Explicit function binding
 Calling  `object A` method, using values of `object B` is called Explicit function binding. JavaScript provides two method `call()` and `apply()`
-  
+
 For more details read on [call()](/JavaScript_Basics/call) and [apply()](/JavaScript_Basics/apply) .
-  
+
 
 ```javascript
 var personA = {
@@ -97,6 +96,6 @@ var personB = {
 personA.printX.call(personB);
 
 /* Output
- John	
+ John
 */
 ```
