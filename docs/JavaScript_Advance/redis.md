@@ -1,8 +1,8 @@
-### what is Redis?
+# Redis
 Redis is an open source (BSD licensed), in-memory data structure store, used as a database, cache and message broker.
 It supports data structures such as strings, hashes, lists, sets, sorted sets with range queries, bitmaps, hyperloglogs, geospatial indexes with radius queries and streams.
 
-### how to connect with redis
+## How to connect with Redis
 The first thing that we need to do is install Redis
 We can either download the latest Redis tarball from redis.io, or we can use a special URL that always points to the latest stable Redis version: http://download.redis.io/redis-stable.tar.gz.
 
@@ -31,10 +31,10 @@ How to Check if Redis is Working
 ```
     -redis-cli ping
 ```
-### Where can we get the free Redis instant
+## Where can we get the free Redis instant
 Redis Cloud
     -https://elements.heroku.com/addons/rediscloud
     -https://appharbor.com/addons/rediscloud
 
 Redis Labs
-    -https://redislabs.com/    
+    -https://redislabs.com/

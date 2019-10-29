@@ -1,4 +1,4 @@
-# Array.prototype.some()
+# Some Method
 
 This method returns true if at least one element in the array passes the test in the provided function.
 

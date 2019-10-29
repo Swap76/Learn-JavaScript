@@ -1,14 +1,13 @@
 # JavaScript Page Redirects
 
-
-### 1. Where are the page redirects used?
+## Where are the page redirects used?
 JavaScript page redirects are an essential part of any web application and are there on every part of the applications. A few of the many are listed below:
 - when an user fills in credentials and clicks the 'Login' button, the user should be `redirected` to the application's login page.
 - When an user completes booking the tickets for the movie, on completing the payment the user has to be `redirected` to the confirmation page.
 - Onclick of the results of a Google search would take the user to the respective website.
 - The list goes on like that.
 
-### 2. How are the `Page Redirects` used?
+## How are the `Page Redirects` used?
 The Web Api provides us with an interface called `window` that provides us with a lot of functions, variables, constructors that could be used for this purpose. A variable named `window` is exposed to the JavaScript code running in the browser window where the DOM Document is loaded.
 
 `window.location` is a readonly property that returns a `Location` object. The Location object contains properties and methods that are useful for the navigation and page redirects in the webpage. Here are a few ways in which we could use the Location object to perform redirects.
@@ -38,7 +37,7 @@ iv. Location.replace( url ) method
     window.location.replace('https://www.example.com');
     ```
 
-### 3. Auto-Refresh
+## Auto-Refresh
 This is a special scenario which could be accomplished with a proper usage of a mix of location object and the `setInterval` method of the Window interface. Here is an implementation of it.
 
 - Using setInterval function and window.location.reload()
@@ -85,5 +84,3 @@ To achieve the refresh without using JavaScript, the `meta` tag could be used in
     </body>
 </html>
 ```
-
-
