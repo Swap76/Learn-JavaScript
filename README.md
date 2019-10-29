@@ -14,6 +14,10 @@ $ npm run lint:fix
 
 This repository uses [Docsify](https://docsify.js.org) for generating documentation website on the fly.
 
+if you want run Docsify you must use latest version of node (now is v13.0.1) 
+read this issue [#299](https://github.com/Swap76/Learn-JavaScript/issues/299)
+
+
 **Steps:**
 1. Install dependencies
    ```
