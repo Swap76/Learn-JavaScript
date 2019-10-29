@@ -1,4 +1,4 @@
-
+### Callback Functions
 Callback functions are derived from a programming paradigm called 
 `functional programming`. This basically can be concluded to this sentence:
 You can pass (`closure`) functions as an argument to another function.  

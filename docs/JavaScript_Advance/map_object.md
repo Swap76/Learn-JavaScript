@@ -1,6 +1,5 @@
+# Map Objects
 
-
-**Map : Object**
 *Maps allow associating keys and values similar to normal Objects except Maps allow any Object to be used as a key instead of just Strings and Symbols. Maps use get() and set() methods to access the values stored in the Map.
 A Map are often called a HashTable or a Dictionary in other languages.*
 

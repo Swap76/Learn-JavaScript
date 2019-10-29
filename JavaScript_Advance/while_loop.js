@@ -10,9 +10,14 @@
 
  */
 
-var n = 1;
+let n = 1;
 
 while (n < 6) {
   console.log("n is less than 6. n = " + n);
   n++;
 }
+
+let sum = 1;
+do {
+  console.log(`sum now is ${sum++}`);
+} while (sum <= 100);

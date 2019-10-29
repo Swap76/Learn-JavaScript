@@ -7,5 +7,4 @@
 
 do {
     statement
- }  while (condition)
-
+}  while (condition)

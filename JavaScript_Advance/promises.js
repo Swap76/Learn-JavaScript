@@ -40,7 +40,7 @@ getAsyncDataWithPromises()
   .then(data => {
     // ... use data
   }).catch(e => {
-  // ... handle exception
+    // ... handle exception
   });
 
 // promises promise the nodejs main thread that i'm going to come after doing a particular task
@@ -78,3 +78,24 @@ asyncCall
   .then(val => `${val} bar`)
   // console logs 'foo bar'
   .then(console.log);
+
+// promise.all();\
+const fs = require("fs");
+const dir = __dirname + "/text/";
+const promisesarray = ["Text file content start after this : "];
+function readfile () {
+  fs.readdir(dir, "utf-8", (err, File) => {
+    File.forEach(file => {
+      promisesarray.push(new Promise((resolve, reject) => {
+        fs.readFile(dir + file, "utf-8", (err, data) => {
+          if (err) reject(err);
+          else resolve(data);
+        });
+      }));
+    });
+    Promise.all(promisesarray).then(data => {
+      console.log(data);
+    });
+  });
+}
+readfile();
