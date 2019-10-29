@@ -1,5 +1,6 @@
 # Comparison Operators
 Javascript has 2 comparison operators, equality `==` and identity/strict equality `===`.
+
 ## Equality
 Equality operator (`==` and `!=`) converts operands if they are not the same type.
 

@@ -1,4 +1,5 @@
-### Assignments
+# Assignments
+
 ## Arithmetic
 |Operation|Operator|Basic|Shortcut|
 |---|---|---|---|

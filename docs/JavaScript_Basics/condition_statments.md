@@ -1,4 +1,4 @@
-# IF, ELSE IF, ELSE CONDITION
+# Condition Statements
 Conditional statements run specific blocks of code based on certain parameters that you set. Like other code it reads top to bottom so the order that you put your conditions in matter.
 
 Example of an if/else if/else:
