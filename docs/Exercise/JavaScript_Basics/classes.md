@@ -1,10 +1,13 @@
-# Classes
+# Challenges
 
-### I would recommend to create new file for each challenges. Copy the provided code and write your own code in the `// ... your function here` part.
+I would recommend to create new file for each challenges. Copy the provided code and write your own code in the `// ... your function here` part.
 
-### **Have a look how the class is being used to work out what it needs to do.**
+## Classes
+
+**Have a look how the class is being used to work out what it needs to do.**
 
 1. Create a class that represents a light switch
+   
    ```javascript
     // ... your code to create a lightswitch
 
@@ -22,6 +25,7 @@
     console.log(lightswitch.isOn()); // false
     ```
 2. Create a class that represents a car
+   
     ```javascript
     // ... your code to create a car
 
