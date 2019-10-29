@@ -4,7 +4,7 @@ There are different four main types of loops in Javascript. All of them are a wa
 ## For Loops
 For loops are the most common types of loops in JS.
 
-```
+```js
 var food = ["rice", "beans", "tortilla"]
 for (var i = 0; i < food.length; i++){
   console.log("Burritos have " + food[i])
@@ -27,7 +27,7 @@ The syntax of the for loop says that we have a variable `i` that is equal to 0, 
 ## While Loops
 While loops are less common than for loops but also very powerful. While loops say while this thing is true do this
 
-```
+```js
 var num = 0
 while(num < 5){
   console.log(num)
@@ -38,7 +38,7 @@ while(num < 5){
 This code is running while num is less than 5.
 If we had this code instead:
 
-```
+```js
 var num = 5
 while(num < 5){
   console.log(num)
@@ -52,7 +52,7 @@ The while loop would never run because that condition is never true
 ## Do While Loops
 Do While loops are similar to while loops but they will alway run once.
 
-```
+```js
 var num = 5
 do {
   console.log(num)
