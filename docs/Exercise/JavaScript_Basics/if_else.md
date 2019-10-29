@@ -23,7 +23,7 @@ Expected Output:
 - "Good evening!" if the time is from 6:00pm to Midnight 
 - "Good night!" if the time is from Midnight to 6:00am. 
 
-**3. Given a number, write a JavaScript program that identifies whether a number is odd or even. _Hint: A number is even if it is divisible by two, otherwise it is odd._**
+**3. Write a JavaScript code that identifies whether a number is odd or even. _Hint: A number is even if it is divisible by two, otherwise it is odd._**
 
 ```
 Example Input:
