@@ -6,11 +6,14 @@ Regex stands for "regular expression", and is a pattern used to search for chara
 
 Regex can be constructed in the following ways:
 
-```var re = /pattern/flags;``` (which will be used throughout the examples)  
+```js
+var re = /pattern/flags;
+(which will be used throughout the examples)  
 
 and
 
-```var re = new RegExp('pattern', 'flags');```
+var re = new RegExp('pattern', 'flags');
+```
 
 In each of these cases, the variable `re` is a regex, and 'pattern' and 'flags' are placeholders that we will learn about next.
 
@@ -19,11 +22,13 @@ In each of these cases, the variable `re` is a regex, and 'pattern' and 'flags' 
 ### Simple Character Patterns
 A Regex can be constructed from simple characters, like 'a', 'b', and 'c', or special characters such as '()', '*', and '$'. A Regex using simple characters simply searches for an exact match of that combination of characters within the searched string. The most basic example of a regex would be:
 
-```var re = /abc/;```
+```js
+var re = /abc/;
+```
 
 This Regex searches a string for occurences of 'abc'. When executed using one of the possible regex methods, String.search(), the following would occur:
 
-```
+```js
 var re = /abc/;
 var exampleString = 'abcdefg';
 var result = exampleString.search(re);
@@ -38,7 +43,7 @@ Once you are ready to perform more complex searches on strings, you will want to
 - `/[^abc]/` on the other hand, specifies the opposite character set of the characters within the brackets. Referencing the Simple Character Patterns example again, this regex would match on indices 3, 4, 5, and 6 since those do not contain the characters 'a', 'b', or 'c'.
 - `/.cd/` uses the '.' special character which matches any character that is not a newline character. In the Simple Character Patterns example, this regex would match on the index 1 since 'bcd' satisfies the given regex ('b' is a character that is not a newline) and starts at index 1. However, if the exampleString was instead 'cdefg', the regex would not match on any indices and return -1.
 - `/s+/` uses the '+' special character which acts as a placeholder for one or more of the preceding character. In this case, the preceding character is 's'. This means that this regular expression will match on the first instance where there is one or more 's' characters in the test string. Instead of using the `String.search()` method like before, a better example would use `String.match()` like below:
-```
+```js
 var re = /s+/;
 var exampleString = "tallahassee";
 var result = exampleString.match(re);
