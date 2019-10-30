@@ -5,11 +5,9 @@ For example, `square([1,2,3,4])` should return `[1,4,9,16]`.
 For example, `getOdd([1,2,3,4,5])` should return `[1,3,5]`.
 
 
-
-
-
-
-Answers:
+<details>
+<summary>Solution</summary>
+<p>
 
 1. Use `Array.prototype.map` method.
 ```js
@@ -24,3 +22,6 @@ function getOdd(arr){
     return arr.filter(num => num % 2 === 1);
 }
 ```
+
+</p>
+</details>
