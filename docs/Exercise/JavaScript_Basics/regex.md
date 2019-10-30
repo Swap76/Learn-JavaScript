@@ -17,15 +17,21 @@ Expected Answer:
    Character . ( period, dot or fullstop) provided that it is not the first or last character and it will not come one after the other.
 
 Expected Answer:
-```js regex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/```
+```js 
+regex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
+```
 
 4. Write a JavaScript program to search a date within a string. 
 Expected Answer: 
-```js regexp = /^(1[0-2]|0?[1-9])\/(3[01]|[12][0-9]|0?[1-9])\/(?:[0-9]{2})?[0-9]{2}$/;```
+```js 
+regexp = /^(1[0-2]|0?[1-9])\/(3[01]|[12][0-9]|0?[1-9])\/(?:[0-9]{2})?[0-9]{2}$/;
+```
 
 5. Write a JavaScript program that work as a trim function (string) using regular expression. 
 Expected Answer:
-```js result = str.replace(/^\s+|\s+$/g, '');```
+```js 
+result = str.replace(/^\s+|\s+$/g, '');
+```
 
 6. Write a JavaScript program to count number of words in string. 
 Note : 
