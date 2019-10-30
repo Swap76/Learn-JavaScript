@@ -44,3 +44,29 @@ I would recommend to create new file for each challenges. Copy the provided code
     car.addJourney(200);
     console.log(car.getMileage()); // 300
     ```
+
+3. Write a JavaScript program to list the properties of a JavaScript object. 
+	Sample object: 
+	var student = {	 
+	name : "David Rayy", 
+	sclass : "VI", 
+	rollno : 12 };
+	Sample Output: name,sclass,rollno
+
+4. Write a JavaScript program to delete the rollno property from the following object. Also print the object before or after deleting the property.
+	Sample object: 
+	var student = { 
+	name : "David Rayy", 
+	sclass : "VI", 
+	rollno : 12 };
+
+5. Create a TV class with properties like brand, channel and volume.
+    Specify brand in a constructor parameter. Channel should be 1 by default. Volume should be 50 by default.
+
+6. To Above class, Add methods to increase and decrease volume. Volume can't never be below 0 or above 100.
+
+7. To Above class, Add a method to set the channel. Let's say the TV has only 50 channels so if you try to set channel 60 the TV will stay at the current channel.
+
+8. To Above class, Add a method to reset TV so it goes back to channel 1 and volume 50. (Hint: consider using it from the constructor).
+
+
