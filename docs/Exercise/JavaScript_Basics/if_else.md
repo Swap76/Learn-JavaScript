@@ -54,3 +54,38 @@ else {
 
 </p>
 </details>
+
+
+
+**4. Write a JavaScript function that tells the user whether a code is the right password or not. If the password is correct then the output should be "Vault opening...", if it's not the output should be "Wrong Password!".**
+
+```
+Example Input:
+"abcd12345"
+with correct password being "abcd12345"
+```
+
+```
+Expected Output:
+"Vault opening..."
+```
+<details>
+<summary>Solution</summary>
+<p>
+
+```javascript
+let password = "abcd12345";
+
+function check(code){
+  if (code === password) {
+    console.log("Vault opening...");
+}
+  else {
+    console.log("Wrong Password!");
+  }
+}
+
+```
+
+</p>
+</details>
