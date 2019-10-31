@@ -1,106 +1,78 @@
-# Switch Statement
+# Switch
 
-## 1. Basic usage of `switch`
+OK, now you now how to check condition and then execute a block of code depending on that condition.
 
-The switch statement is used to perform different actions based on up to n+1 possible outcomes of a single expression.
-
-### Syntax
-```javascript
-switch (EXPRESSION) {
-    case X:
-        // code block
-        break;
-    case Y:
-        // code block
-        break;
-    case Z:
-        // code block
-        break;
-    default:
-        // code block
-}
-```
-
-### How switch operates
-
-The switch **EXPRESSION** is evaluated once. Then the value of the evaluation is compared to each case, top to bottom. A `break` stops execution to fall through to the next case (see advanced usage of `switch`). If none of the cases match but there is a `default` clause, this will be executed.
-
-#### Example
-Turn the number `Date.getDay()` into the name of the day.
+Assume we have 5 conditions to check. Let's try it.
 
 ```javascript
-let day = "";
-switch((new Date).getDay()) {
-    case 0:
-        day = "Sunday";
-        break;
-    case 1:
-        day = "Monday";
-        break;
-    case 2:
-        day = "Tuesday";
-        break;
-    case 3:
-        day = "Wednesday";
-        break;
-    case 4:
-        day = "Thursday";
-        break;
-    case 5:
-        day = "Friday";
-        break;
-    case 6:
-        day = "Saturday";
-        break;
+
+// assume we check for user age between 5 numbers
+let age = 30, desc = '';
+if (age == 10) {
+  desc = 'boy'
+} else if (age == 15) {
+  desc = 'teenager'
+} else if (age == 20) {
+  desc = 'young man'
+} else if (age == 30) {
+  desc = 'grown man'
+} else if (age == 50) {
+  desc = 'old man'
 }
+ // desc = grown man
+
 ```
 
-## 2. Advanced usage of `switch`
+but that's boring in case we have 50 conditions!
 
-### `default` cases
-The `default:` keyword defines a default set of code instructions to be executed if none of the cases match the evaluated expression.
-
-#### Example
-A random number between 1 and 3 is generated. Is it 1 or 2?
+And here comes the **SWITCH** use. Basically, it is used when we have multiple choices or cases and we have different result depending on each case. 
+Let's try the previous example in the switch way
 
 ```javascript
-switch(Math.ceil(Math.random() * 3)) {
-    case 1:
-        return "The number is 1";
-    case 2:
-        return "The number is 2";
-    default:
-        return "The number is neither 1, nor 2!";
+
+switch (age) {
+  case 10:
+    desc = 'boy'
+    break;
+  case 15:
+    desc = 'teenager'
+    break;
+  case 20:
+    desc = 'young man'
+    break;
+  case 30:
+    desc = 'grown man'
+    break;
+  default:
+    desc = 'old man'
 }
+ // desc = grown man
+
 ```
 
-The default case does not need to be the last case in the switch block, it simply improves readability.
-
-### Fall through
-
-Without the `break` keyword or a `return` execution falls through to the next case after the currently selected one.
-
-#### Example
-
-Depending on the current weekday a different message appears.
-
+but let's clarify the new syntax:
 ```javascript
-switch((new Date).getDay()) {
-    case 0:
-        console.log("I need to go back to work tomorrow :(")
-        break;
-    case 1:
-    case 2:
-    case 3:
-    case 4:
-    case 5:
-        console.log("I wish it was the weekend already");
-        break;
-    case 6:
-        console.log("Saturday is my favorite day of the week!");
-}
-```
+ Switch(here gos the variable which value is compared){
+   case (value to compare):
+     code to execute if value is matched
+     break; ((will be explained at the end))
 
-### Strict comparison
+   case (value to compare):
+     code to execute if value is matched
+     break; ((will be explained at the end))
 
-Switch statements use strict `===` comparison. The types need to match for a case to be selected.
+    default: ((will be explained at the end))
+
+ }
+
+ ```
+How switch works:
+- Switch accepts a variable to compare its value, then loops from the first case to the last case to check if the variable value matches any case of its cases and here we have two possibilities:
+
+    - variable value matched any case: then code of this case will be executed and then the BREAK statement works to break or end the loop and exit the Switch statement
+
+    - variable value didn't match any case then if there is a default case, it will be executed otherwise no case will be executed
+- **BREAK** statement is used to break the loop of the Switch if case is matched. If a break is missed then the code will keep executing cases code to the end of the switch statement which may cause wrong results.
+- **DEFAULT** case is an optional case which used as a backup case that applies when all cases are not matched. We don't need break after default case because we are already at the end of the Switch statement
+
+
