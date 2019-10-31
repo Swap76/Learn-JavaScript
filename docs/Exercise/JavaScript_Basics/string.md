@@ -2,16 +2,15 @@
 
 **1. Write a JavaScript function to convert a string in abbreviated form.** 
 
-```
 Example of call of the function
+```js
 
 console.log(abbrev_name("Musa Bajwa"));
 ```
 
 
 ```
-Example Output
-
+Example Output:- 
 "Musa B."
 ```
 
