@@ -1,8 +1,15 @@
-1. **Write** a JavaScript function to convert a string in abbreviated form. 
+### String Operations Exercises
+
+**1. Write a JavaScript function to convert a string in abbreviated form.** 
+
+Example of call of the function
 
 **Example**
 Test Data :
+```js
 console.log(abbrev_name("Musa Bajwa"));
+```
+Example Output:- 
 "Musa B."
 
 2. **Write** a JavaScript function to concatenates a given string n times (default is 1).

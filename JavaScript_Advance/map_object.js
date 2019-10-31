@@ -60,3 +60,47 @@ for (const amount of recipeMap.values()) {
 for (const entry of recipeMap) { // the same as of recipeMap.entries()
   alert(entry); // cucumber,500 (and so on)
 }
+
+/*
+Loop with forEach
+Instead of using for loop, forEach can be used.
+
+map.forEach(function(value, key){
+
+});
+
+or with array function
+
+map.forEach((value, key) => {
+
+})
+
+*/
+
+recipeMap.forEach((value, key) => {
+  alter(key + " = " + value);
+});
+
+/*
+Convert To Arrays
+A map obejct can be convert to arrays
+
+var array = Array.from(map) - create an array of the key-value pairs
+
+var array = Array.from(map.value()) - Create an array of the values
+
+var array = Array.from(map.key()) - Create an array of the keys
+
+*/
+
+// create an array of the key-value pairs
+const keyValArr = Array.from(recipeMap);
+alter(keyValArr);
+
+// Create an array of the values
+const ValArr = Array.from(recipeMap);
+alter(ValArr);
+
+// Create an array of the keys
+const keyArr = Array.from(recipeMap);
+alter(keyArr);
