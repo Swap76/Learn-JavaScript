@@ -1,4 +1,4 @@
-**Array reduce() Method**
+# Reduce Method
 
 The array reduce() method in JavaScript is used to reduce
 the array to a single value and executes a provided function
@@ -7,7 +7,7 @@ value of the function is stored in an accumulator.
 
 ```js
     var  pokemon = ["Squirtle", "Charmander", "Bulbasaur"];
-    
+
     var  pokeLength  = pokemon.reduce(function(accumulator, current) {
         return  accumulator  +  current.length;
     }, 0);

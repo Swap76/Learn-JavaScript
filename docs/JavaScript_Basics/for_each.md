@@ -1,6 +1,5 @@
 # Array forEach method
 
-forEach() method takes a callback function then loops through all the array elements and execute the callback function once for each array element
 
 forEach() method DOES NOT modify the array and unlike map() method, forEach() DOES NOT return a new array
 

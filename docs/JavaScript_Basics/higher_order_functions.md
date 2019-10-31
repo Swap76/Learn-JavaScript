@@ -1,9 +1,9 @@
-## HIGHER ORDER FUNCTIONS
+# Higher Order Functions
 
 A **Higher Order function** or **HOF** is a function that receives a function as an argument or returns the function as output.
 
-There are some built-in HOF for Arrays in Javascript, such as 
-  - *Array.prototype.map* 
+There are some built-in HOF for Arrays in Javascript, such as
+  - *Array.prototype.map*
   - *Array.prototype.filter*
   - *Array.prototype.reduce*.
 
@@ -35,7 +35,7 @@ We will use the below array `list` as the base array to operate over.
 
 
 ## 2. filter
-  
+
   - the **filter** function iterates over an input array and returns a new array based on a condition
   - the filter receive a callnack function as its argument. This callback functions receives 3 arguments:
     - 1st arg is the **element** in the list like "1" or "2" in the list example
@@ -54,7 +54,7 @@ We will use the below array `list` as the base array to operate over.
   console.log(newList);     // prints [2, 4]
 
 ```
-    
+
 ## 3. reduce
 
   - the **reduce** function iterates over an input array and returns a single output value
@@ -62,7 +62,7 @@ We will use the below array `list` as the base array to operate over.
     - a callback function, also called as **reducer** function
     - an **initialValue** (this is optional parameter)
   - the reducer function accepts four parameters:
-    - 1st arg is **accumulator** which contains the accumulated value which will be returned when the array is reduced. 
+    - 1st arg is **accumulator** which contains the accumulated value which will be returned when the array is reduced.
       If initalvalue is provided, accumulator will be equal to initialvalue, else it will be equal to the first element in the array
     - 2nd arg is **currentValue** which points to the current value of the array which is being iterated over.
       If initalvalue is provided, currentValue will be equal to the first element in the array, else it will be equal to the second element in the array
