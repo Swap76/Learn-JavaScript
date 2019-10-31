@@ -107,3 +107,14 @@ delete student['birthyear']; // removes birthyear property
 console.log(student); // prints with only name as property
 
 ```
+
+Deconstruct keys into variables
+```js
+const person = {
+  age: 20,
+  name: 'John',
+  height: 1.67
+}
+
+const { age, name, height } = person
+```
