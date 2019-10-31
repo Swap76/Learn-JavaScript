@@ -87,3 +87,12 @@ languages.slice(1, 3);
 languages.slice(-3, -1);
 // This selects languages[-3] to the element before languages[-1]
 // returns ["Python", "C"] which is the same as above
+
+// To get an array copy
+const arrayCopy = [...languages]
+// This ... copuy the array by value
+console.log(arrayCopy);
+
+// Get a reverse copy of array
+const reverseArray = languages.reverse();
+console.log(reverseArray);

@@ -25,7 +25,8 @@ if (age == 10) {
 
 but that's boring in case we have 50 conditions!
 
-And here comes the **SWITCH** use. Basically, it is used when we have multiple choices or cases and we have different result depending on each case. LEt's try the previous example in the switch way
+And here comes the **SWITCH** use. Basically, it is used when we have multiple choices or cases and we have different result depending on each case. 
+Let's try the previous example in the switch way
 
 ```javascript
 

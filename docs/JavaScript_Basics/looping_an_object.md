@@ -1,4 +1,4 @@
-# Looping an object
+# Looping an Object
 A for...in loop iterates over properties of an object.
 
 ```javascript
@@ -18,10 +18,10 @@ for (const key in studentObject) {
     		console.log("The Student's name is ", studentObject[key]);
   		}
 	}
-} 
+}
 ```
 
-We can also use other methods to convert an object into an array, loop through the array and check for a specific key. 
+We can also use other methods to convert an object into an array, loop through the array and check for a specific key.
 - Object.keys
 - Object.entries
 
