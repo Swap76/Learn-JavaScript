@@ -1,45 +1,84 @@
-1. Write a JavaScript program to test the first character of a string is uppercase or not. 
-Expected Answer: 
-```js
-   regexp = /^[A-Z]/;
+### Regex Exercises
+**1. Write a JavaScript program to test the first character of a string is uppercase or not.**
+
+<details>
+<summary>Solution</summary>
+<p>
+
+```javascript
+regexp = /^[A-Z]/;
+
 ```
-2. Write a JavaScript program to check a credit card number. 
-Expected Answer:
-```js 
+
+</p>
+</details>
+
+
+**2. Write a JavaScript program to check a credit card number.**
+
+<details>
+<summary>Solution</summary>
+<p>
+
+```javascript
    regexp = /^(?:(4[0-9]{12}(?:[0-9]{3})?)|(5[1-5][0-9]{14})|(6(?:011|5[0-9]{2})[0-9]{12})|(3[47][0-9]{13})|(3(?:0[0-5]|[68][0-9])[0-9]{11})|((?:2131|1800|35[0-9]{3})[0-9]{11}))$/
 ```
 
-3. Write a pattern that matches e-mail addresses. 
+</p>
+</details>
+
+
+**3. Write a pattern that matches e-mail addresses.** 
 	The personal information part contains the following ASCII characters.
 	Uppercase (A-Z) and lowercase (a-z) English letters.
 	Digits (0-9).
 	Characters ! # $ % & * + - / = ? ^ _  { | } ~
    Character . ( period, dot or fullstop) provided that it is not the first or last character and it will not come one after the other.
 
-Expected Answer:
+<details>
+<summary>Solution</summary>
+<p>
+
 ```js 
 regex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
 ```
+</p>
+</details>
 
-4. Write a JavaScript program to search a date within a string. 
-Expected Answer: 
+**4. Write a JavaScript program to search a date within a string.** 
+
+<details>
+<summary>Solution</summary>
+<p>
+ 
 ```js 
 regexp = /^(1[0-2]|0?[1-9])\/(3[01]|[12][0-9]|0?[1-9])\/(?:[0-9]{2})?[0-9]{2}$/;
 ```
+</p>
+</details>
 
-5. Write a JavaScript program that work as a trim function (string) using regular expression. 
-Expected Answer:
+**5. Write a JavaScript program that work as a trim function (string) using regular expression.**
+
+<details>
+<summary>Solution</summary>
+<p>
+
 ```js 
 result = str.replace(/^\s+|\s+$/g, '');
 ```
+</p>
+</details>
 
-6. Write a JavaScript program to count number of words in string. 
+**6. Write a JavaScript program to count number of words in string.** 
 Note : 
 - Remove white-space from start and end position. 
 - Convert 2 or more spaces to 1. 
 - Exclude newline with a start spacing.
   
-Expected Answer: 
+<details>
+<summary>Solution</summary>
+<p>
+ 
  ```js
 function count_words()
 {
@@ -56,3 +95,5 @@ function count_words()
 }
 ```
   
+</p>
+</details>
