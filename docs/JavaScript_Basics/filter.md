@@ -26,3 +26,11 @@ The following example uses filter() to create a filtered array that has all elem
     var  filtered  = [12, 5, 8, 130, 44].filter(isBigEnough);
 ```
 filtered is [12, 130, 44]
+
+**Object Example**
+
+Filters people with more than 32 year out
+```js
+const people = [{ name: 'John', age: 20 }, { name: 'Mary', age: 35 }, { name: 'Clark', age: 40 }]
+const youngPeople = people.filter( ({ age }) => age <= 32 )
+```
