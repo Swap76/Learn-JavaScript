@@ -36,7 +36,7 @@ Note that the value isn't changed to a number if a string is passed in.
 Converts a number to its exponential form. The returned value is a string that represents the Number object in exponential notation
 
 **.toFixed()**
-Formats a number using the fixed-point notation. It allows you to format a number with a specific number of digits to the right of the decimal. Numbers will be rounded is ncessary.
+Formats a number using the fixed-point notation. It allows you to format a number with a specific number of digits to the right of the decimal. Numbers will be rounded if necessary.
 
 Its return value is a string with the given number using fixed-point notation. If the number given is negative, the return value will be a number and won't be converted into a string.
 
@@ -44,7 +44,7 @@ Its return value is a string with the given number using fixed-point notation. I
 Converts a number into a language-sensitive representation of said number.
 It can take in two optional parameters:
 - locales: A string with a language tag (bali, latn)
-- options: A set of options for the given locale (curency, style)
+- options: A set of options for the given locale (currency, style)
 
 The return value is a string.
 
