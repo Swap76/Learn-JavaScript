@@ -1,10 +1,12 @@
 # Switch
 
-OK, now you now how to check condition and then execute a block of code depending on that condition. Assume we have 5 conditions to check. Let's try it.
+OK, now you now how to check condition and then execute a block of code depending on that condition.
 
-assume we check for user age between 5 numbers
+Assume we have 5 conditions to check. Let's try it.
+
 ```javascript
 
+// assume we check for user age between 5 numbers
 let age = 30, desc = '';
 if (age == 10) {
   desc = 'boy'
