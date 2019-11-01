@@ -31,3 +31,10 @@ var roots = numbers.map(num => Math.sqrt(num));
 // roots is now [1, 2, 3]
 // numbers is still [1, 4, 9]
 ```
+
+Using map method to extract keys from objects
+```js
+const sampleArray = [{ user: 'John', id: 1, age: 20 },{ user: 'Mike', id: 5, age: 30 },{ user: 'Paul', id: 2, age: 40 }]
+console.log( sampleArray.map( ({ user, age}) => ({ user, age}) ) )
+// prints the sample array but with only the user and age key
+```
