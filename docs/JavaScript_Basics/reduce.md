@@ -15,3 +15,11 @@ value of the function is stored in an accumulator.
 **Output**
 
 27
+
+# Example
+
+Sum all the numbers in an array
+```js
+const array = [1, 2, 3, 4, 5, 6]
+const sum = array.reduce( (acc, curr) => acc + curr, 0 )
+```
