@@ -1,4 +1,4 @@
- ### `substr and substring`
+# Substr and Substring
 
 - ***Use:***
 Syntax: `substr`  [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substr)  takes parameters as  `(from, ?length).`
@@ -7,7 +7,7 @@ Syntax: `substring`  [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScri
 ```js
  // get value using substr
  console.log(str.substr(1, 10)); // 'ommonSourc'
- 
+
  // get value using substring
  console.log(str.substring(1, 10)); // 'ommonSour'
  // if we start from 0 both behave the same.

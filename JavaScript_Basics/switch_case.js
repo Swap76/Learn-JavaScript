@@ -12,14 +12,14 @@
 
 Syntax;
 switch (expression) {
-case x:
+  case x:
+    // code block
+    break;
+  case y:
+    // code block
+    break;
+  default:
   // code block
-  break;
-case y:
-  // code block
-  break;
-default:
-      // code block
 }
 
 // This is how it works:
@@ -35,26 +35,26 @@ default:
 // This example uses the weekday number to calculate the weekday name:
 
 switch (new Date().getDay()) {
-case 0:
-  day = "Sunday";
-  break;
-case 1:
-  day = "Monday";
-  break;
-case 2:
-  day = "Tuesday";
-  break;
-case 3:
-  day = "Wednesday";
-  break;
-case 4:
-  day = "Thursday";
-  break;
-case 5:
-  day = "Friday";
-  break;
-case 6:
-  day = "Saturday";
+  case 0:
+    day = 'Sunday';
+    break;
+  case 1:
+    day = 'Monday';
+    break;
+  case 2:
+    day = 'Tuesday';
+    break;
+  case 3:
+    day = 'Wednesday';
+    break;
+  case 4:
+    day = 'Thursday';
+    break;
+  case 5:
+    day = 'Friday';
+    break;
+  case 6:
+    day = 'Saturday';
 }
 
 /**
@@ -81,14 +81,14 @@ case 6:
 // If today is neither Saturday (6) nor Sunday (0), write a default message:
 
 switch (new Date().getDay()) {
-case 6:
-  text = "Today is Saturday";
-  break;
-case 0:
-  text = "Today is Sunday";
-  break;
-default:
-  text = "Looking forward to the Weekend";
+  case 6:
+    text = 'Today is Saturday';
+    break;
+  case 0:
+    text = 'Today is Sunday';
+    break;
+  default:
+    text = 'Looking forward to the Weekend';
 }
 
 // The result of text will be:
@@ -99,14 +99,14 @@ default:
 // Example
 
 switch (new Date().getDay()) {
-default:
-  text = "Looking forward to the Weekend";
-  break;
-case 6:
-  text = "Today is Saturday";
-  break;
-case 0:
-  text = "Today is Sunday";
+  default:
+    text = 'Looking forward to the Weekend';
+    break;
+  case 6:
+    text = 'Today is Saturday';
+    break;
+  case 0:
+    text = 'Today is Sunday';
 }
 
 // If default is not the last case in the switch block, remember to end the default case with a break.
@@ -119,16 +119,16 @@ case 0:
 // Example
 
 switch (new Date().getDay()) {
-case 4:
-case 5:
-  text = "Soon it is Weekend";
-  break;
-case 0:
-case 6:
-  text = "It is Weekend";
-  break;
-default:
-  text = "Looking forward to the Weekend";
+  case 4:
+  case 5:
+    text = 'Soon it is Weekend';
+    break;
+  case 0:
+  case 6:
+    text = 'It is Weekend';
+    break;
+  default:
+    text = 'Looking forward to the Weekend';
 }
 
 // Switching Details
@@ -147,17 +147,16 @@ default:
 
 // In this example there will be no match for x:
 
-Example:
-var x = "0";
+Example: var x = '0';
 switch (x) {
-case 0:
-  text = "Off";
-  break;
-case 1:
-  text = "On";
-  break;
-default:
-  text = "No value found";
+  case 0:
+    text = 'Off';
+    break;
+  case 1:
+    text = 'On';
+    break;
+  default:
+    text = 'No value found';
 }
 
 /** Exercise for You Complete it */
@@ -165,11 +164,46 @@ default:
 // Create a switch statement that will alert "Hello" if fruits is "banana", and "Welcome" if fruits is "apple".
 
 switch (fruits) {
-case "Banana":
-  alert("Hello");
-  break;
+  case 'Banana':
+    alert('Hello');
+    break;
 
-case "Apple":
-  alert("Welcome");
-  break;
+  case 'Apple':
+    alert('Welcome');
+    break;
+}
+
+// Create a switch statement that will tell you what to wear based on the temperature outside. For temps below 50 degrees Fahrenheit, alert "Wear a coat." For temps between 51 and 70 degrees, alert "Bring a sweater." For temps above 70, alert "It should be warm."
+
+var temp = 49;
+
+switch (true) {
+  case temp <= 50:
+    'Wear a coat.';
+    break;
+  case temp > 50 && temp <= 70:
+    'Bring a sweater.';
+    break;
+  case temp > 70:
+    'It should be warm.';
+}
+
+// Create a switch statement to determine who wins in a game of rocks, paper, scissors.
+
+var player1 = 'scissors';
+var player2 = 'paper';
+
+switch (true) {
+  case player1 === 'paper' && player2 === 'rock':
+  case player1 === 'scissors' && player2 === 'paper':
+  case player1 === 'rock' && player2 === 'scissors':
+    'Player 1 wins';
+    break;
+  case player1 === 'rock' && player2 === 'paper':
+  case player1 === 'paper' && player2 === 'scissors':
+  case player1 === 'scissors' && player2 === 'rock':
+    'Player 2 wins';
+    break;
+  default:
+    'Tie. Go again.';
 }

@@ -1,4 +1,4 @@
-# FilteringArray
+# Filtering Array
 
 Array prototype has a standard method called filter.
 

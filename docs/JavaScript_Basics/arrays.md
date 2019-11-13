@@ -19,3 +19,9 @@ The slice() method returns a new array from a selected range.
 The unshift() method Add elements at the front of an Array.
 
 The every() function is used when you need to validate each element of a given array.
+
+The filter() method is used to filter out values from an array
+
+The map() method is used to apply a function to every value of an array
+
+The reduce() method is used to reduce arrays via an function
