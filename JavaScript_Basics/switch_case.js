@@ -207,3 +207,11 @@ switch (true) {
   default:
     'Tie. Go again.';
 }
+
+
+/* Exercice for you to try to build the switch compeltely*/
+
+// Create a switch statement to convert abriged bytes values (Kb,Mb,Gb,Tb ) to their complete values in bytes, example : 1K = 1 * 1024, 1M = 1 * 1024 * 1024, 1G = 1 * 1024 * 1024 * 1024 , etc...
+// how to convert bytes : 1Kb = 1024 b, 1Mb = 1024 Kb, 1Gb = 1024 Mb, 1 Tb = 1024 Gb.
+// Hint: the switch will test the value of 'unit', and will have to multiply the var "quantity" by the right number before putting it in the var "result". don't forget to add a default response!  
+  
