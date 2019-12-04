@@ -20,7 +20,7 @@ function filenameToTitle (filename) {
 async function buildSection (directory) {
   const files = await getFiles(`${documentationFolder}/${directory}`);
   const title = filenameToTitle(directory);
-  const content = [`- ${title}`];
+  const content = [`- ${title}\n`];
 
   for (const file of files) {
     content.push(`\t- [${filenameToTitle(file)}](${directory}/${file})`);
@@ -33,12 +33,15 @@ async function buildSidebar (watchEventType) {
   if (watchEventType == "change") { return; }
 
   console.log("Building _sidebar.md");
-  const content = await buildSection("JavaScript_Basics") + "\n" + await buildSection("JavaScript_Advance");
+  const content = `- [Home](README.md) \n\n` + await buildSection("JavaScript_Basics") + "\n\n\n" + await buildSection("JavaScript_Advance") + "\n\n" + await buildSection("Exercise") + "\n\n" + await buildSection("Reference");
 
   fs.writeFileSync(`${documentationFolder}/_sidebar.md`, content);
 }
 
 fs.watch(`${documentationFolder}/JavaScript_Basics`, buildSidebar);
 fs.watch(`${documentationFolder}/JavaScript_Advance`, buildSidebar);
+fs.watch(`${documentationFolder}/Exercise`, buildSidebar);
+fs.watch(`${documentationFolder}/Reference`, buildSidebar);
+
 
 buildSidebar();
