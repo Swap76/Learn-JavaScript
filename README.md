@@ -2,14 +2,6 @@
 
 This repository was made for beginners to start learning Javascript from Scratch
 
-## ESLint
-
-After making your changes or adding your contributions, lint your javascript files with eslint by running following command
-
-```sh
-$ npm run lint:fix
-```
-
 ## Documentation
 
 This repository uses [Docsify](https://docsify.js.org) for generating documentation website on the fly.
@@ -29,3 +21,17 @@ read this issue [#299](https://github.com/Swap76/Learn-JavaScript/issues/299)
    ```
 3. Now you can preview documentation site in your browser by visiting `http://localhost:3000`.
 
+## ESLint
+
+After making your changes or adding your contributions, lint your javascript files with eslint by running following command.
+While linting many errors may arise don't try to fix errors from other files except yours as this is tutorial repo some mistakes are intenstion.
+
+```sh
+$ npm run lint:fix
+```
+
+## References
+
+1. [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+2. [w3schools](https://www.w3schools.com/js/)
