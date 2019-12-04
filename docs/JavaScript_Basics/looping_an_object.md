@@ -25,7 +25,7 @@ We can also use other methods to convert an object into an array, loop through t
 - Object.keys
 - Object.entries
 
-### Object.keys
+## Object.keys
 We can use **Object.Keys** to convert into an array of property values and we can loop through the array as follows,
 ```javascript
 const keys = Object.keys(studentObject)
@@ -36,7 +36,7 @@ for(const key of keys){
 }
 ```
 
-### Object.entries
+## Object.entries
 We can use **Object.Keys** to convert into an array of property values and we can loop through the array as follows,
 ```javascript
 const entries = Object.entries(studentObject)

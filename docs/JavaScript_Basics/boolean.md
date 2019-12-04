@@ -1,4 +1,4 @@
-### What are boolean data types?
+# What are boolean data types?
 
 JavaScript **Boolean** is a data type which can store any one of two values, **true** or **false**.
 E.g. - 

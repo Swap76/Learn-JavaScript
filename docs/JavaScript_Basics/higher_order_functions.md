@@ -11,7 +11,7 @@ Let's understand each of these through examples.
 
 We will use the below array `list` as the base array to operate over.
 
-```
+```js
   const list = [1, 2, 3, 4, 5];
 ```
 
@@ -24,7 +24,7 @@ We will use the below array `list` as the base array to operate over.
     - 2nd arg is the **index** of the item in the list (index for first element is 0, and so on)
     - 3rd arg is the original array [1,2,3,4,5] on which map is being called
 
-```
+```js
   const newList = list.map(function (item, index, list) {
     return item * 2;
   });
@@ -42,7 +42,7 @@ We will use the below array `list` as the base array to operate over.
     - 2nd arg is the **index** of the item in the list (index for first element is 0, and so on)
     - 3rd arg is the original array [1,2,3,4,5] on which filter is being called
 
-  ```
+  ```js
   // this filtered list will contain only even numbers
 
   const newListFiltered = list.filter(function (item, index, list) {
@@ -52,8 +52,7 @@ We will use the below array `list` as the base array to operate over.
 
   console.log(list);        // prints [1, 2, 3, 4, 5]
   console.log(newList);     // prints [2, 4]
-
-```
+  ```
 
 ## 3. reduce
 
@@ -69,7 +68,7 @@ We will use the below array `list` as the base array to operate over.
     - 3rd arg is **index** which contains the index of the currentValue in the input array
     - 4th arg is the **sourceArray** which is the input array on which reduce is called
 
-```
+```js
 // Example 1
 // this will return sum of all items in list. here, there is no initialvalue provided
 
@@ -81,7 +80,7 @@ console.log(list);            // prints [1, 2, 3, 4, 5]
 console.log(sumOfListItems);  // prints 15
 ```
 
-```
+```js
 // Example 2
 // this will return sum of all items in list. here, the initialvalue is provided as 20
 

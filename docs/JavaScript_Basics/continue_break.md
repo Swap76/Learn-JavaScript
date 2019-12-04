@@ -4,9 +4,7 @@
 
 [`continue`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/continue) and [`break`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/break) are two javascript [keywords](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#Keywords) that are used in loops (`while` and `for`). `break` can also be used in the [`switch`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch) statement. Both can be used with [labels](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/label).
 
-## How to use them
-
-### Break
+## Break
 
 Break is used to terminate the current loop, switch or label statement and go to the next statement following the terminated one.
 
@@ -61,7 +59,7 @@ Will output: *'[1, 2, 3, 4, 2, 4]'* with 'break firstFor;' and *'[1, 2, 3, 4, 2,
 
 Indeed in th first case, when `array[i] * array[j] > 5`, the code execution continue right at the last line with the `console.log` call, in the second case it will continue after the second loop, so inside of the first one.
 
-### Continue
+## Continue
 
 Continue is used to terminate the current iteration in a loop, labeled loop, and continues execution of the loop with the next iteration.
 

@@ -99,7 +99,7 @@ const SwapnilInfo = new StudentInfo("Swapnil Bio");
 SwapnilInfo.getNameAndCollege();
 ```
 
-### Static methids
+## Static methids
 
 It's also possible to define define **[static methods](https://developer.mozilla.org/en-US/docs/Glossary/Static_method)**, [static methods](https://developer.mozilla.org/en-US/docs/Glossary/Static_method) can be called without needing to instantiate the class, for instance:
 
@@ -125,7 +125,7 @@ StudentInfo.getGreeting();
 
 The `getGreeting` method will log `Hello world!` in the console without creating an object with the keyword [`new`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new).
 
-### Getters and Setters
+## Getters and Setters
 
 It's also possible to define two types of special methods: **[getters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/get)** and **[setters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/set)**.
 **[Setters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/set)** help us to assign a value to a class variable, and since it is a function, it is possible to add extra logic in the method as necessary.

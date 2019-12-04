@@ -18,9 +18,7 @@ Example scenarios, that can be solved using DOM manipulation:
  - Create a new list item when the user clicks on a button
  - Remove a row from a table, when the user clicks on a button.
 
-## How to manipulate the DOM?
-
-### Finding elements in the DOM
+## Finding elements in the DOM
 
 The first step of manipulation a node that is in the DOM, is to find it. For example, to find the first hyperlink (`<a>`) in the document, you can:
 
@@ -36,7 +34,7 @@ const allDivs= document.querySelector('div');
 
 You can use more advanced selectors as well, please visit the MDN Selectors page to learn more: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors
 
-### Creating new nodes
+## Creating new nodes
 
 You can create new elements with `document.createElement`:
 
@@ -54,7 +52,7 @@ const body = document.querySelector('body');
 body.appendChild(node);
 ```
 
-### Removing nodes from the DOM
+## Removing nodes from the DOM
 
 Removing a node is pretty simple, just find the node, and cal; `remove()`:
 

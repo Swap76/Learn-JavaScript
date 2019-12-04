@@ -29,5 +29,10 @@ Example:
 '' === 0 //return false
 ```
 
-### The importance of type conversion
-As we just discussed `2 === '2'` will return false but `2 == '2'` will return true. Why does this matter? If you're doing math and get `2+2` will evaluate to 4 `'2'+'2'` will evaluate to '22' because it's putting the 2 numbers together. But what happens if you have `2+'2'`? In this case you get '22' as well because Javascript is doing type conversion on the number 2, converting it from a number to a string. Why doesn't it convert the string to a number? This happens because the value of the string isn't being evaluated just the type. So `2+'a'` evaluates to '2a' because it's changing the number 2 to the string '2'.
+## The importance of type conversion
+As we just discussed `2 === '2'` will return false but `2 == '2'` will return true. 
+Why does this matter? 
+If you're doing math and get `2+2` will evaluate to 4 `'2'+'2'` will evaluate to '22' because it's putting the 2 numbers together. But what happens if you have `2+'2'`? 
+In this case you get '22' as well because Javascript is doing type conversion on the number 2, converting it from a number to a string. 
+Why doesn't it convert the string to a number? This happens because the value of the string isn't being evaluated just the type. 
+So `2+'a'` evaluates to '2a' because it's changing the number 2 to the string '2'.

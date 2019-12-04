@@ -4,37 +4,25 @@
 * They are used on the `Number` type
 * I will discuss the following Javascript Math operators, `Math.round()`, `Math.power()`, `Math.sqrt()`, `Math.abs()`.
 
-## 1. Math.round()
+## Math.round()
 * This function rounds a number to the nearest round number
 * or as described by the documentation:
 > _Returns the nearest single precision float representation of a number._
 
-## 2. Math.pow()
+## Math.pow()
 * This calculates the power of a number for you, you remeber that from math class right? The small number floating above the number to be powered.
 * or as described by the documentation:
 > _Returns base to the exponent power,that is:_
 > base<sup>exponent</sup>
 
-## 3. Math.sqrt()
+## Math.sqrt()
 * This function calculates the square root of a number
 * or as described by the documentation:
 > _Returns the positive square root of a number._
 
-## 4. Math.abs()
+## Math.abs()
 * Returns the absolute value of a number.
-=======
-## Math
 
-The math object provides you properties and methods for mathematical constants and functions. Unlike other global objects, Math is not a constructor. All the properties and methods of Math are static and can be called by using Math as an object without creating it.
-
-## Syntax
-
-The syntax to call the properties and methods of Math are as follows
-
-```javascript
-var pi_val = Math.PI;
-var cos_val = Math.cos(0);
-```
 ## Math.ceil()
 
 The JavaScript math.ceil(n) method returns the largest integer for the given number. For example 4 for 3.7, 6 for 5.9 etc.
