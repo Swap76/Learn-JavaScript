@@ -26,7 +26,7 @@ languages.splice(2, 1, "Python", "Pearl");
  This will add Python and Perl starting at index 2 and delete one element which was at index 2 originally.
  As of result we get an output of `["C++", "Java", "Python", "Pearl", "R"]`
 
- #### Example 3: Deleting an element at a specific index
+#### Example 3: Deleting an element at a specific index
 
 ```javascript
 let languages = ["C++", "Java", "Javascript", "R"];

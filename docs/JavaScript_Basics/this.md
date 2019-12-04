@@ -18,7 +18,7 @@ Window {postMessage: ƒ, blur: ƒ, focus: ƒ, close: ƒ, parent: Window, …}
 
 ```
 
-  ## 'this'  in a function
+## 'this'  in a function
 
 In JavaScript, by default the owner of the function is `this`. The value of this in a function refers to the object it belongs to. In below example, `this` refers to window object, so instead of printing '5' it refers to global value '10'.
 
@@ -58,7 +58,7 @@ printX();
  */
 ```
 
-  ## 'this' in a method
+## 'this' in a method
 
 In JavaScript, `this` in a method refers to the object of which the method belongs to.  In below example, the `printX` method belongs to person object. so `this` refers to person object.
 

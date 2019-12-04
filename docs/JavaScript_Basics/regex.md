@@ -17,9 +17,7 @@ var re = new RegExp('pattern', 'flags');
 
 In each of these cases, the variable `re` is a regex, and 'pattern' and 'flags' are placeholders that we will learn about next.
 
-## Anatomy of a Regex
-
-### Simple Character Patterns
+## Simple Character Patterns
 A Regex can be constructed from simple characters, like 'a', 'b', and 'c', or special characters such as '()', '*', and '$'. A Regex using simple characters simply searches for an exact match of that combination of characters within the searched string. The most basic example of a regex would be:
 
 ```js
@@ -36,7 +34,7 @@ console.log(result);
 // expected output: 0 since 'abc' is found at index 0 of exampleString
 ```
 
-### Special Character Patterns
+## Special Character Patterns
 Once you are ready to perform more complex searches on strings, you will want to start using special characters. There are a lot of special characters that can be used, so only a select few will be covered below, and a reference with explanations for the exhausive list of characters can be found at the bottom of the document.
 
 - `/[abc]/` specifies a character set which matches any one of the characters within the brackets. Unlike `/abc/`, `/[abc]/` matches on indices 0, 1, and 2 of the example string used in the Simple Character Patterns example. An alternative syntax for `/[abc]/` is `/[a-c]/`.
@@ -60,7 +58,7 @@ console.log(result2);
 - `/^abc/` uses the '^' special character outside of the context of square brackets. In this case, the '^' special character refers to the beginning of the search string. A search using this regex would succeed for the test string 'abcdefg' since the simple character pattern 'abc' does occur at the beginning of the test string.
 - `/efg$/` uses the '$' special character, which refers to the end of the search string. A search using this regex would also succeed for the test string 'abcdefg' since this test string ends in the simple character pattern 'efg'.
 
-### Flags
+## Flags
 Flags are placed at the end of Regex, and allow for an even more robust set of search possibilities. They can be used together or independently regardless of order. Two of the most commonly used flags are:
 
 - `g`: Global search. This allows the regex to be applied to the entire test string, regardless of whether a match has already been found.

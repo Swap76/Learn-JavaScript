@@ -9,21 +9,57 @@ const variableName = "Hello JavaScript";
 const variableName = 'Hello JavaScript';
 ```
 
-### Concatenation
-First way of doing string concatenation is using **+** operator
-```javascript
-const name = "Richard";
+## Concatenation
 
-const text = "Hello " + name; 
+String concatenation is joining 2 or more strings together in one string
 
-console.log(text);  // Hello Richard
-``` 
-Or using **template literals**. More convenient way for manipulating strings contains many variables.
-```javascript
-const name = "Richard";
+There are several method to achieve this in javascript and here we will mention some:
 
-// Use backticks ( ` ) inside quotes and put variables inside ${}
-const text = `Hello ${Richard}`;
+1. Using .concat() method ( same as Array.concat() method )
+    ```javascript
 
-console.log(text);  // Hello Richard
-```
+    let str = 'hello '.concat('world!')
+    console.log(str) // hello world!
+
+    let user = 'jack'
+    console.log('welcome '.concat(user)) // welcome jack
+
+    ```
+
+2. Using plus operator
+    ```javascript
+
+    let str = 'hello ' + 'world!'
+    console.log(str) // hello world!
+
+    let user = 'jack'
+    console.log('welcome '+ user) // welcome jack
+
+    ```
+2. Using Template literals (Template strings):
+   -  using back-ticks
+   -  new feature from ES6
+   -  you can add multiple lines in one string without the need to add \<br\> tags or \n special character
+    ```javascript
+
+    let str = `hello world!`
+    console.log(str) // hello world!
+
+    let user = 'jack'
+    console.log(`welcome ${jack}`) // welcome jack
+
+    console.log(`this is
+    a multiline string
+    created by Template literals`)
+    // output :
+    //this is
+    //a multiline string
+    //created by Template literals
+
+    // ES5 version
+    console.log('this i\na multiline string\ncreated by Template literals')
+    // output :
+    //this is
+    //a multiline string
+    //created by Template literals
+    ```
