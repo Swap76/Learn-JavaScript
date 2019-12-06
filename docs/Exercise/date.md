@@ -1,4 +1,3 @@
-
 1.**Write** a JavaScript program to get the `current date`.
 
 **Expected Output**:

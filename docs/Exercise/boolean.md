@@ -2,7 +2,7 @@
 
 Let us go through some examples below to understand the concepts:
 
-```
+```js
 console.log( !!0 );            // false
 
 console.log( !!1 );            // true

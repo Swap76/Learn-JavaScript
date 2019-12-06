@@ -47,18 +47,24 @@ I would recommend to create new file for each challenges. Copy the provided code
 
 3. Write a JavaScript program to list the properties of a JavaScript object. 
 	Sample object: 
+    ```js
 	var student = {	 
-	name : "David Rayy", 
-	sclass : "VI", 
-	rollno : 12 };
+        name : "David Rayy", 
+        sclass : "VI", 
+        rollno : 12 
+    };
+    ```
 	Sample Output: name,sclass,rollno
 
 4. Write a JavaScript program to delete the rollno property from the following object. Also print the object before or after deleting the property.
 	Sample object: 
+    ```js
 	var student = { 
-	name : "David Rayy", 
-	sclass : "VI", 
-	rollno : 12 };
+        name : "David Rayy", 
+        sclass : "VI", 
+        rollno : 12 
+    };
+    ```
 
 5. Create a TV class with properties like brand, channel and volume.
     Specify brand in a constructor parameter. Channel should be 1 by default. Volume should be 50 by default.

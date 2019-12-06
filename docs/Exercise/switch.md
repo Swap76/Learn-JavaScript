@@ -1,4 +1,4 @@
-### Switch Case Exercises
+## Switch Case Exercises
 **1. Write a JavaScript function for basic arithmetic computations.** The function should accept two numbers and an operator and should return the computed value. If the operator is not included in the allowed values, return `Invalid operator`. _Hint: "operator" will be compared to each case_
 ```
 Parameters:
