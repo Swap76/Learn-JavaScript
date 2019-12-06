@@ -1,4 +1,4 @@
-### Async Await
+# Async Await
 
 `async` and `await` is **syntactic sugar** for using `promises`. That means that the `async` and `await` keywords are transpiled to normal `promise` syntax.
 

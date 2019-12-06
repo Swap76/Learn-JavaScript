@@ -46,7 +46,3 @@ Example:
 })();
 </script>
 ```
-
-Reference: 
-- https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX/Getting_Started
-- https://www.ibm.com/support/knowledgecenter/SS8PJ7_9.6.1/com.ibm.etools.webtoolscore.doc/topics/cajax.html

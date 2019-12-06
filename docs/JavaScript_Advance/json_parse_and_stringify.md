@@ -1,4 +1,4 @@
-# JSON Parse and Stringify
+## JSON Parse
 
 The `JSON.parse()` method parses a JSON string, which turns the JSON string into an object.
 
@@ -13,7 +13,7 @@ let catFacts = await fetch(catFactsEndpoint);
 let parsedCatFacts = await catFacts.json();
 ```
 
-# JSON Stringify
+## JSON Stringify
 
 The `JSON.stringify()` method turns a JavaScript object into a JSON string. `JSON.Stringify` takes 3 arguments:
 

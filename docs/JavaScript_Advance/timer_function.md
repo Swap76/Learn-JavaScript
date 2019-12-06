@@ -45,7 +45,7 @@ Heloooo 7!!!
 
 ```
 
-  ## Stopping the timer or Cancelling the setTimeout method
+## Stopping the timer or Cancelling the setTimeout method
 
 We can stop execution of `setTimeout()` using `clearTimeout` method.  This can only be done if the function has not already been executed. It uses the variable returned from `setTimeout()`
 

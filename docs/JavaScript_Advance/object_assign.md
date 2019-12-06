@@ -36,5 +36,3 @@ console.log(object1);
 console.log(object2);
 // expected output: { key: "reallyNewValue" }
 ```
-
-***An Exhaustive reference for Object.assign() and other object methods can be found at [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign)***

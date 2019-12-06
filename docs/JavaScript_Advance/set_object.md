@@ -5,7 +5,6 @@ which iterate the values in insertion order.
 
 ## Creating Sets
 
-
 The Set object can be created using the keyword ***new***:
 ```javascript
 new Set([iterable]);
@@ -18,9 +17,7 @@ An iterable object. All the elements will be copied to the new created Set. If t
 ### Return value
 A new Set object.
 
-
 ## Instance Methods
-
 
 `set.add(value)`
 *Adds* a new element to the Set with the given *value*. If the element is already contained in the Set, the element will be not added.
@@ -48,7 +45,6 @@ Return an interator that contains the values for each element in the Set object 
 
 `set.keys()`
 The same as ***set.values()***.
-
 
 ## Examples
 Examples can be consulted in the corresponding "***set-objects.js***" file.
