@@ -1,7 +1,5 @@
 /*
-
 Functions are special type of objects that has key-value pairs along with some code which gets executed
-
 */
 
 function returnName (name) {

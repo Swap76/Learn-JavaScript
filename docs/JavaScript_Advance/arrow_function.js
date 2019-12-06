@@ -4,15 +4,12 @@ let a = () => {
   
 };
 
-
 let multiply = (num) => num * num 
  
 //arrow functions also works without curly braces {} and can directly write expression after the arrows 
 // this is known as concise body as opposed to a block body (with {});
 //cannot be used with if statements, or an error will appear since it only takes one expression; 
 //ternary operators can be used with arrow functions as a more concise way to write if statements 
-
-
 
 let info = {
   firstName: "Swapnil",
@@ -22,7 +19,6 @@ let info = {
   }
 }
 //not having this. binding means it also cannot be called with new and used as a constructor 
-
 
 console.log(info.getFullName());
 // Output My name is undefined undefined that's why we don't use this with arrow function

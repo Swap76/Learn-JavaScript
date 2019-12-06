@@ -33,14 +33,16 @@ async function buildSidebar (watchEventType) {
   if (watchEventType == "change") { return; }
 
   console.log("Building _sidebar.md");
-  const content = `- [Home](README.md) \n\n` + await buildSection("JavaScript_Basics") + "\n\n\n" + await buildSection("JavaScript_Advance") + "\n\n" + await buildSection("Exercise") + "\n\n" + await buildSection("Reference");
+  const content = `- [Home](README.md) \n\n` + await buildSection("JavaScript_Basics_Info") + "\n\n\n" + await buildSection("JavaScript_Advance_Info")+ "\n\n\n" + await buildSection("JavaScript_Basics") + "\n\n\n" + await buildSection("JavaScript_Advance") + "\n\n" + await buildSection("Exercise_Questions") + "\n\n" + await buildSection("Reference");
 
   fs.writeFileSync(`${documentationFolder}/_sidebar.md`, content);
 }
 
+fs.watch(`${documentationFolder}/JavaScript_Basics_Info`, buildSidebar);
+fs.watch(`${documentationFolder}/JavaScript_Advance_Info`, buildSidebar);
 fs.watch(`${documentationFolder}/JavaScript_Basics`, buildSidebar);
 fs.watch(`${documentationFolder}/JavaScript_Advance`, buildSidebar);
-fs.watch(`${documentationFolder}/Exercise`, buildSidebar);
+fs.watch(`${documentationFolder}/Exercise_Questions`, buildSidebar);
 fs.watch(`${documentationFolder}/Reference`, buildSidebar);
 
 
