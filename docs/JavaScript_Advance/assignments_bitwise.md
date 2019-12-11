@@ -1,3 +1,4 @@
+```js
 /* In javascript there are always several ways to the goal.
 Also the syntax of variable assignment can be abbreviated.
 This is also suitable for bitwise operations
@@ -86,4 +87,4 @@ y ^= x; // y: 0101 (binary)
 
 // Basic
 y = 5; // y: 00000000000000000000000000000101 (binary)
-y = ~y; // y: 11111111111111111111111111111010 (binary) -6 (decimal)
+y = ~y; // y: 11111111111111111111111111111010 (binary) -6 (decimal)```

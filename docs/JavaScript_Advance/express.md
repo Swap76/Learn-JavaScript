@@ -1,3 +1,4 @@
+```js
 const express = require("express");
 
 const port = 3003;
@@ -11,4 +12,4 @@ routes.get("/system_info", (req, res) => {
 
 app.use(express.json());
 app.use(routes);
-app.listen(port, () => console.log(`Server running in port ${port}`));
+app.listen(port, () => console.log(`Server running in port ${port}`));```

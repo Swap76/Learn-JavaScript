@@ -1,3 +1,4 @@
+```js
 /*
 A closure is the combination of a function bundled together (enclosed)
 with references to its surrounding state (the lexical environment).
@@ -27,4 +28,4 @@ explains closures
 */
 
 console.log(modifier());
-// [out] Original String: --->sample string, Modified String: ---> sample string is modified
+// [out] Original String: --->sample string, Modified String: ---> sample string is modified```

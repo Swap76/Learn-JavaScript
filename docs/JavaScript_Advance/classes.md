@@ -1,3 +1,4 @@
+```js
 class Student {
   // onlyname; // This should not have let or const only in classes
   constructor (name, age) { // name and age are arguments given to object at the time of creation of object
@@ -25,4 +26,4 @@ class StudentInfo {
 }
 
 const SwapnilInfo = new StudentInfo("Swapnil Bio");
-SwapnilInfo.getNameAndCollege();
+SwapnilInfo.getNameAndCollege();```

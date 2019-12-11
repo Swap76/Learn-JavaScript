@@ -1,3 +1,4 @@
+```js
 /*
 A JavaScript function can have default parameter value.
 Using default function parameters, you can initialize parameters with default values.
@@ -26,4 +27,4 @@ const addOneToANumberAsDefault = (number1 = 1, number2 = number1 + 8) => {
   console.log(number2);
 };
 
-addOneToANumberAsDefault(); // Output 9
+addOneToANumberAsDefault(); // Output 9```

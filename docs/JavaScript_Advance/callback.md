@@ -1,3 +1,4 @@
+```js
 /**
  * Callback functions are derived from a programming paradigm called
  * `functional programming`. This basically can be concluded to this sentence:
@@ -150,4 +151,4 @@ axios({
  * instead of using callback functions. This approach also have pros and cons. One of
  * the cons of this approach, is instead of nested `.then()` blocks, you are going to
  * need nested `try` `catch` blocks. Sometimes this kind of problems are inevitable.
- */
+ */```

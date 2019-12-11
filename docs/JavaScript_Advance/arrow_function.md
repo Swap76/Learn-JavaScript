@@ -1,3 +1,4 @@
+```js
 let a = () => {
   // This is arrow function came new in ES6
   //It assigns the function to variable a as the identifier with let instead and adds arrows before the curly braces. 
@@ -80,3 +81,4 @@ setTimeout(function () {
 setTimeout(() => {
   console.log("hello world");
 }, 0); //arrow functions provide better readability
+```

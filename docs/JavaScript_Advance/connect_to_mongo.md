@@ -1,3 +1,4 @@
+```js
 const mongo = require("mongoose");
 
 //           protocol   hostname port  database
@@ -18,4 +19,4 @@ mongo.connection.on("error", (err) => {
   // this code will also be executed once the script fails to connect to the mongodb.
   console.error("---> Error handling option two: An error occurred. Please have a look at the stacktrace beyond.");
   console.error(err);
-});
+});```

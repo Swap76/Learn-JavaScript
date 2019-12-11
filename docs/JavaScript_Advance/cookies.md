@@ -1,3 +1,4 @@
+```js
 // #1 Simple usage of cookies
 document.cookie = "movie=Jungle Book";
 document.cookie = "actor=Balu";
@@ -39,4 +40,4 @@ if (document.cookie.split(";").filter(function (item) {
 // ES2016
 if (document.cookie.split(";").filter((item) => item.includes("actor=Balu")).length) {
   console.log("The cookie \"actor\" has \"Balu\" for value (ES6)");
-}
+}```

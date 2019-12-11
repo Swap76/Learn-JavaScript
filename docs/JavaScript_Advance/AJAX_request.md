@@ -1,3 +1,4 @@
+```js
 const POST = "POST";
 
 export class AJAXRequest {
@@ -26,4 +27,4 @@ export const open = (method, url, async) => {
   usedMethod = method;
   request.open(method, url, async);
 };
-export const send = string => (usedMethod === POST ? request.send(string) : request.send());
+export const send = string => (usedMethod === POST ? request.send(string) : request.send());```

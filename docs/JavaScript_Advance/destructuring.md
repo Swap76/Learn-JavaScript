@@ -1,3 +1,4 @@
+```js
 // As data coming from the server is very big then there is better way of getting the data out of object
 
 const a = { // Suppose this is the object coming from server then
@@ -29,4 +30,4 @@ newArray = ["Swapnil", 19, "Shinde"]; // New array
 
 const [firstName, , lastName] = newArray; // Destructured the firstName and lastName
 
-console.log(`My name is ${firstName} ${lastName}`);// Output My name is Swapnil Shinde
+console.log(`My name is ${firstName} ${lastName}`);// Output My name is Swapnil Shinde```

@@ -1,3 +1,4 @@
+```js
 /* The bind() method creates a new function that, when called, has its this keyword set
 to the provided value, with a given sequence of  arguments preceding any provided
 when the new function is called.
@@ -15,4 +16,4 @@ console.log(unboundGetX()); // The function gets invoked at the global scope
 
 const boundGetX = unboundGetX.bind(module);
 console.log(boundGetX());
-// expected output: 42
+// expected output: 42```

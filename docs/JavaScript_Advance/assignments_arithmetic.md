@@ -1,3 +1,4 @@
+```js
 /* In javascript there are always several ways to the goal.
 Also the syntax of variable assignment can be abbreviated.
 This is particularly suitable for mathematic operators
@@ -111,4 +112,4 @@ y = 5 ** 2; // y: 25
 
 // Shortcut
 y = 5;
-y **= 2; // y: 25
+y **= 2; // y: 25```

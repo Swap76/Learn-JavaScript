@@ -1,3 +1,4 @@
+```js
 /**
  * Most simplest encryption scheme. Read more: [http://practicalcryptography.com/ciphers/caesar-cipher/]
  **/
@@ -43,4 +44,4 @@ function caesarCipher (toEncipher, shift = 0) {
   return output;
 }
 
-module.exports = caesarCipher;
+module.exports = caesarCipher;```

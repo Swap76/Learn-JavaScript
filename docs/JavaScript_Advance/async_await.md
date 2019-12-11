@@ -1,3 +1,4 @@
+```js
 // Async Await Flow on JavaScript
 
 // the most common case to use async await is to handle promises for fetch request
@@ -39,3 +40,4 @@ const getUsers = async () => {
     console.log('DISPLAY AN ERROR', error)
   }
 }
+```
