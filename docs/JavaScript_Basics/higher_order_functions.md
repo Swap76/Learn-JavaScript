@@ -1,3 +1,4 @@
+```js
 // HIGHER ORDER FUNCTIONS FOR ARRAYS
 
 // the arrays in javascript have 3 main HOF
@@ -44,3 +45,4 @@ const newListFiltered = list.map(function (item, index, list) {
   [1, 10, 2, 21].sort();
 
 // this return [1, 10, 2, 21]
+```

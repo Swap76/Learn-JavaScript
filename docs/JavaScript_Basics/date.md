@@ -1,3 +1,4 @@
+```js
 // The Date object in JavaScript is used to work with dates and times.
 
 // Current time
@@ -36,4 +37,4 @@ date.setFullYear(2020, 10, 3); // Set the date to November 3, 2020
 
 date.setMonth(4); // Set the month to 4 (May)
 
-date.setTime(1332403882588); // Thu Mar 22 2012 13:41:22 GMT+0530
+date.setTime(1332403882588); // Thu Mar 22 2012 13:41:22 GMT+0530```

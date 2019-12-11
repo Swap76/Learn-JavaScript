@@ -1,3 +1,4 @@
+```js
 const array = [];
 array.flat(); // This is array flat method came new in ES-2019
 
@@ -21,3 +22,4 @@ console.log(arr1.flat(2)); // [1,2,3,'a', 'b','c']
 
 // if you want to work on n level you need to pass Infinity
 console.log(arr1.flat(Infinity)); // [1,2,3,'a', 'b','c']
+```

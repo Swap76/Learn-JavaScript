@@ -1,3 +1,4 @@
+```js
 /* eslint-disable no-multi-spaces */
 /* eslint-disable no-unused-vars */
 
@@ -122,4 +123,4 @@ const isIE = () => {
   const isIE11 = navigator.userAgent.indexOf(".NET CLR") > -1;      
   const isIE11orLess = isIE11 || navigator.appVersion.indexOf("MSIE") !== -1;
   return isIE11orLess;
-};
+};```

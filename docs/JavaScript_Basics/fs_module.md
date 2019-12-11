@@ -1,3 +1,4 @@
+```js
 // Fs is a inbuilt function in nodejs to perform operations on files
 
 // There are always two ways to do fs operation as sync and async
@@ -44,4 +45,4 @@ fsModule
 File ends
 */
 
-// This is a kind of publish , subscribe system our stream is subscriber and file is publisher we can use that using MQTT
+// This is a kind of publish , subscribe system our stream is subscriber and file is publisher we can use that using MQTT```

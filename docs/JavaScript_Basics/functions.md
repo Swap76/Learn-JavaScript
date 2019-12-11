@@ -1,3 +1,4 @@
+```js
 // Functions in Javascript
 // Functions are used to structure and generalize the code. It will become more flexible and you will have a better overview.
 
@@ -60,3 +61,4 @@ function add(a, b) { // in the "()" you define what variable names the inputs ge
 // Depending on the sequence, the values separated by a "," are assigned to the parameter variables.
 // a = 5; b = 8;
 result = add(5, 8) // result: 13
+```

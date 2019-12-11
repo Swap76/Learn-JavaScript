@@ -1,3 +1,4 @@
+```js
 // Let's create an array of numbers that we want to get the square of each number in the array
 const numbers = [1, 2, 3, 4, 5];
 
@@ -13,4 +14,4 @@ console.log(square);
 // expected output: Array [1, 4, 9, 16, 25]
 
 console.log(square2);
-// expected output: Array [1, 4, 9, 16, 25]
+// expected output: Array [1, 4, 9, 16, 25]```

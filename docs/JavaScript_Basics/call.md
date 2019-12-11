@@ -1,3 +1,4 @@
+```js
 const person = {
   greetings: function () {
     return `Hello, my name is ${this.name} and i'm ${this.age} years old`;
@@ -17,4 +18,4 @@ const person1 = {
 
 const greeting = person.greetings.call(person1);
 
-console.log(greeting);
+console.log(greeting);```

@@ -1,3 +1,4 @@
+```js
 // JavaScript Boolean data type can store one of two values, true or false. ... e.g.
 const YES = new Boolean(true);
 
@@ -14,4 +15,4 @@ console.log(negativeVariable && positiveVariable) //Output: {false}
 
 // JavaScript treats an empty string (""), 0, undefined and null as false.
 
-// Everything else is true.
+// Everything else is true.```

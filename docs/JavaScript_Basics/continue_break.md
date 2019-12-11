@@ -1,3 +1,4 @@
+```js
 /*
  * Usage of continue and break
 */
@@ -60,4 +61,4 @@ firstFor: for (let i = 0; i < 5; i++) {
   result2.push(numbers.trim());
 }
 console.log(result2);
-// Will output: *'["0 1", "1 2", "2 3", "4 5"]'* with 'continue firstFor' and *'["0 1", "1 2", "2 3", "", "4 5"]'* with a simple continue statement.
+// Will output: *'["0 1", "1 2", "2 3", "4 5"]'* with 'continue firstFor' and *'["0 1", "1 2", "2 3", "", "4 5"]'* with a simple continue statement.```

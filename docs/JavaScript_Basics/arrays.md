@@ -1,3 +1,4 @@
+````js
 // Javascript arrays can take any values in the same array
 // We don't have to specify the size
 const a = ["hii", 26, "Swapnil"];
@@ -95,4 +96,4 @@ console.log(arrayCopy);
 
 // Get a reverse copy of array
 const reverseArray = languages.reverse();
-console.log(reverseArray);
+console.log(reverseArray);````

@@ -1,3 +1,4 @@
+```js
 const animals = ["cats", "dogs", "bunnies", "birds"];
 
 const start_with_b = animals.filter(name => name.indexOf("b") === 0);
@@ -17,4 +18,4 @@ function filter (array, callback) {
 function callback (num) {
   return Math.pow(num, 2);
 }
-console.log(filter(arr, callback));
+console.log(filter(arr, callback));```

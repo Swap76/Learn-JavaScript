@@ -1,3 +1,4 @@
+```js
 // IF keyword condition
 // this is used to create condition block of code
 
@@ -29,4 +30,4 @@ if (!condition) {
   // this code is executed because 1 is true like binary
 } else {
   // this block of code is never executed
-}
+}```

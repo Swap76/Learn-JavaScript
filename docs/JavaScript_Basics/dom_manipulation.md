@@ -1,3 +1,4 @@
+```js
 // Top most tree nodes
 const html = document.documentElement; // The topmost document node.
 const body = document.body; // To access body of the page. It can be null. That means it doen't exist.
@@ -129,4 +130,4 @@ singleDiv.style.color = 'blue';
   */
 
 
-// See more at https://www.hongkiat.com/blog/dom-manipulation-javascript-methods/
+// See more at https://www.hongkiat.com/blog/dom-manipulation-javascript-methods/```

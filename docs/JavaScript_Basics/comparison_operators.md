@@ -1,3 +1,4 @@
+```js
 const comparisonOperators = () => {
   console.log(1 !== 2); // inequality operator
   console.log(1 != "1"); // inequality operator
@@ -15,4 +16,4 @@ const comparisonOperators = () => {
   console.log(3 <= 1); // less than or equal to
 };
 
-comparisonOperators();
+comparisonOperators();```

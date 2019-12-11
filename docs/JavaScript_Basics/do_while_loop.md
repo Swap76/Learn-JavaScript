@@ -1,4 +1,4 @@
-
+```js
 /* STRUCTURE:
 do {
     statement
@@ -15,4 +15,4 @@ let n = 1;
 do {
   console.log("n is less than 6. n = " + n);
   n++;
-} while (n < 6);
+} while (n < 6);```

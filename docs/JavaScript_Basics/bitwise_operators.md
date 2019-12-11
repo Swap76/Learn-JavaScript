@@ -1,3 +1,4 @@
+```js
 console.log(5 & 13); // 0101 & 1101 = 0101
 // expected output: 5;
 
@@ -42,4 +43,4 @@ var x = -5 >> 1; // outputs -3
 
 /* JavaScript (Zero Fill) Right Shift (>>>)
 This is a zero fill right shift. One or more zero bits are pushed in from the left, and the rightmost bits fall off: */
-var x = 5 >>> 1; // outputs 2
+var x = 5 >>> 1; // outputs 2```

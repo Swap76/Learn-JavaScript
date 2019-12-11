@@ -1,3 +1,4 @@
+```js
 // 1. join() method
 const sayings = ["India", "is", "my", "country"];
 sayings.join(" - ");
@@ -229,4 +230,4 @@ console.log(numbers); //[2,4,6,8,10]
   console.log('The element removed after pop is: ', originalArray.pop());
   console.log('Array after pop is:');
   console.log(originalArray);
-}
+}```
