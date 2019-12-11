@@ -25,12 +25,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Swap76/JavascriptBasics.git"
+    "url": "git+https://github.com/Swap76/Learn-JavaScript.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Swap76/JavascriptBasics/issues"
+    "url": "https://github.com/Swap76/Learn-JavaScript/issues"
   },
-  "homepage": "https://github.com/Swap76/JavascriptBasics#readme"
+  "homepage": "https://github.com/Swap76/Learn-JavaScript#readme"
 }
