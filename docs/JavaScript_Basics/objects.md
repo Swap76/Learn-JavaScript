@@ -1,3 +1,4 @@
+```js
 // Object in basically collection of key value pairs
 const old = {
   name: "Swapnil", // left is key and right one is value
@@ -58,4 +59,4 @@ const canAddValue = { // This is normal object having 2 keys name and rollno
 canAddValue.branch = "Computer";
 
 console.log(canAddValue);
-// Output { name: 'Swapnil', rollno: 76, branch: 'Computer' }
+// Output { name: 'Swapnil', rollno: 76, branch: 'Computer' }```

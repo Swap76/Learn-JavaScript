@@ -1,3 +1,4 @@
+```js
 //###########
 //  SPLICE  #
 //###########
@@ -46,4 +47,4 @@ let coding = languages.slice(-3, -1);
 //          ["C++", "Java", "Javascript", "R"]
 //           -4       -3         -2        -1
 //
-// Slice excludes the last index when its negative. Hence, it will return elements at -3 and -2, ignoring element at -1.
+// Slice excludes the last index when its negative. Hence, it will return elements at -3 and -2, ignoring element at -1.```

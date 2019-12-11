@@ -1,3 +1,4 @@
+```js
 //JavaScript Scope
 
 //Global scope
@@ -62,4 +63,4 @@ function accessingVariable() {
 }
 accessingVariable(); // return 1
 //end const
-//End Block scoping
+//End Block scoping```

@@ -1,3 +1,4 @@
+```js
 /* eslint-disable no-unused-vars */
 /* eslint-disable no-undef */
 
@@ -38,4 +39,4 @@ const getUserEnterredValue = (message) => prompt(message);
 
 // sample
 const getUserPrimaryLanguage = (message) => getUserEnterredValue(message);
-console.log(getUserEnterredValue("which language is primary for you?")); // return sring with answer or null
+console.log(getUserEnterredValue("which language is primary for you?")); // return sring with answer or null```

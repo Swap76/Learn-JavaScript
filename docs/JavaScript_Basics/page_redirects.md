@@ -1,3 +1,4 @@
+```js
 /**
  *
  * JAVASCRIPT PAGE REDIRECTS
@@ -58,4 +59,4 @@ function AutoRefresh (t) {
   setTimeout("location.reload(true);", t);
 }
 
-// Please look at the page-redirect.md file to see where you would include these scripts
+// Please look at the page-redirect.md file to see where you would include these scripts```

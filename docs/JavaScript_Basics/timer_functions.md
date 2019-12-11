@@ -1,3 +1,4 @@
+```js
 // setTimeout setInterval in both functions the time is specified in millisecond
 
 // setTimeout This runs a code after given time starting from calling this method in program.
@@ -24,4 +25,4 @@ setTimeout(() => {
 SetInterval is Called
 SetTimeout is Called
 SetInterval is Called
-*/
+*/```

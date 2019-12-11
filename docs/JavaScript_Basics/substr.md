@@ -1,3 +1,4 @@
+```js
 // define a dummy string
 const str = "commonSourceOfTruth";
 
@@ -16,4 +17,4 @@ console.log(str.substring(0, 10)); // 'commonSour'
 console.log(str.substr(1, str.length - 2)); // ommonSourceOfTrut
 
 // Substring takes indices
-console.log(str.substring(1, str.length - 1)); // ommonSourceOfTrut
+console.log(str.substring(1, str.length - 1)); // ommonSourceOfTrut```

@@ -1,3 +1,4 @@
+```js
 const into = "My college is SIESGST. Our seniors and alumnus are best in Mumbai";
 
 const fullName = "My name is Swapnil Satish Shinde";
@@ -26,3 +27,4 @@ console.log("a casual lower case string")
 /** EXERCISE **/
 // Add a function to the string prototype that counts the occurrences of a substring
 // 'cheese and Bananas, and more cheese'.count('cheese') -----> 2
+```

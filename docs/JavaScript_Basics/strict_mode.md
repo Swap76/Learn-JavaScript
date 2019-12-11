@@ -1,3 +1,4 @@
+```js
 "use strict";
 // examples taken from: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode
 
@@ -21,4 +22,4 @@ fixed.newProp = "ohai"; // throws a TypeError
 
 // deleting undeletable properties
 "use strict";
-delete Object.prototype; // throws a TypeError
+delete Object.prototype; // throws a TypeError```

@@ -1,3 +1,4 @@
+```js
 // JavaScript | Array reduce() Method
 /*
 The array reduce() method in JavaScript is used to reduce
@@ -11,4 +12,4 @@ const pokeLength = pokemon.reduce(function (previous, current) {
   return previous + current.length;
 }, 0);
 
-// Outputs 27
+// Outputs 27```

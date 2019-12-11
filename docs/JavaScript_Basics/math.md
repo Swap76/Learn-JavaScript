@@ -1,3 +1,4 @@
+```js
 // Math functions
 
 // ceil and floor functions
@@ -49,4 +50,4 @@ function abs (value) {
 console.log(round(value3));
 console.log(pow(value4, value5));
 console.log(sqrt(value5));
-console.log(abs(99.99));
+console.log(abs(99.99));```

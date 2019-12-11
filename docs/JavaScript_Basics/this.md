@@ -1,3 +1,4 @@
+```js
 console.log(this); // This gives empty object
 // Output {}
 
@@ -28,4 +29,4 @@ console.log(a);// Output 1
 
 // console.log(b); // Output ReferenceError: b is not defined as b is in function scope only
 
-help(); // Output 4
+help(); // Output 4```

@@ -1,3 +1,4 @@
+```js
 // isFinite()
 
 /*
@@ -149,4 +150,4 @@ This is rarely something done on your own, as JavaScript invokes this automatica
 
 const age = new Number(45);
 typeof age; // object
-age.valueOf(); // 45
+age.valueOf(); // 45```

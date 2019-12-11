@@ -1,3 +1,4 @@
+```js
 // Example 1
 let boo = false;
 alert(typeof boo); // boolean
@@ -11,4 +12,4 @@ alert(typeof str); // string
 
 const num = Number(str); // becomes a number 123
 
-alert(typeof num); // number
+alert(typeof num); // number```

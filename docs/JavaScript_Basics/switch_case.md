@@ -1,3 +1,4 @@
+```js
 /**
  * 1. Where we use the Switch
  * 2. More info about Switch
@@ -215,3 +216,4 @@ switch (true) {
 // how to convert bytes : 1Kb = 1024 b, 1Mb = 1024 Kb, 1Gb = 1024 Mb, 1 Tb = 1024 Gb.
 // Hint: the switch will test the value of 'unit', and will have to multiply the var "quantity" by the right number before putting it in the var "result". don't forget to add a default response!  
   
+```

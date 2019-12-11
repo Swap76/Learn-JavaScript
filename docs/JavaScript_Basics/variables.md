@@ -1,3 +1,4 @@
+```js
 /* eslint no-var: "off" */
 
 // There is only 3 types of variables in javascript
@@ -18,4 +19,4 @@ console.log(PI) // Output {3.14}
 //	let a = "User's name" for let userNickName = "User's name"
 //*CammelCase for a better understaning, JS has case sensitive.
 //*Variables names must begin with a letter.
-//*write constants with Upper case.
+//*write constants with Upper case.```
