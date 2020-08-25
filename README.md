@@ -6,12 +6,12 @@ This repository was made for beginners to start learning Javascript from Scratch
 
 This repository uses [Docsify](https://docsify.js.org) for generating documentation website on the fly.
 
-If you want run Docsify you must use latest version of node (now is v13.0.1) 
+If you want to run Docsify, you must use the latest version of node (now is v13.0.1).
 read this issue [#299](https://github.com/Swap76/Learn-JavaScript/issues/299)
 
 
 **Steps:**
-1. Install dependencies
+1. Install dependencies.
    ```
    npm install
    ```
@@ -23,8 +23,8 @@ read this issue [#299](https://github.com/Swap76/Learn-JavaScript/issues/299)
 
 ## ESLint
 
-After making your changes or adding your contributions, lint your javascript files with eslint by running following command.
-While linting many errors may arise don't try to fix errors from other files except yours as this is tutorial repo some mistakes are intenstion.
+After making your changes or adding your contributions, lint your javascript files with eslint by running the following command.
+While linting, many errors may arise. Don't try to fix errors from other files except yours as this is a tutorial repo some mistakes are intentional.
 
 ```sh
 $ npm run lint:fix
@@ -33,13 +33,13 @@ $ npm run lint:fix
 ## References
 
 ### [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-One of the famous reference site for Javascript, it introduces from beginning to the advance concept
+One of the famous reference site for Javascript, it introduces various concepts from beginning to advanced.
 
-### [w3schols.com](https://www.w3schools.com/js/)
-W3Schools is an educational website for learning web technologies online. Content includes tutorials and references relating to HTML, CSS, JavaScript
+### [w3schools.com](https://www.w3schools.com/js/)
+W3Schools is an educational website for learning web technologies online. Content includes tutorials and references relating to HTML, CSS, JavaScript and many more.
 
-### [The Modern JavaScrit Tutoial](https://javascript.info/)
-This web site introduces JavaScript with well-sorted topics, so it helps to see overview
+### [The Modern JavaScript Tutoial](https://javascript.info/)
+This web site introduces JavaScript with well-sorted topics, giving a basic overview of JavaScript.
 
 ### [TutorialPoint](https://www.tutorialspoint.com/index.htm)
-They provides a vaiety of media such as video, eBooks, so it would be helpful, it you look for another learning materials
+They provide a variety of media content such as videos, eBooks, and other learning materials making JavaScript much simpler.
