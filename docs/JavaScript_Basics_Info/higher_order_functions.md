@@ -118,7 +118,7 @@ console.log(numList.sort()); // prints [100,20,34,67]
 ```
 
 ```js
-// Example 3
+// Example 4
 const numList = [34, 67, 100, 20];
 console.log(numList.sort((a, b) => a - b)); // prints [20,34,67,100]
 console.log(numList.sort((a, b) => b - a)); // prints [100,67,34,20]
