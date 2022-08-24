@@ -43,3 +43,6 @@ This web site introduces JavaScript with well-sorted topics, giving a basic over
 
 ### [TutorialPoint](https://www.tutorialspoint.com/index.htm)
 They provide a variety of media content such as videos, eBooks, and other learning materials making JavaScript much simpler.
+
+### [Learn JavaScript in Detail](https://www.scaler.com/topics/javascript/)
+Basic to advanced JavaScript tutorial for programmers. Learn JavaScript with step-by-step guide along with applications and example programs by Scaler Topics.
