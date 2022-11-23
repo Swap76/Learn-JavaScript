@@ -43,3 +43,6 @@ This web site introduces JavaScript with well-sorted topics, giving a basic over
 
 ### [TutorialPoint](https://www.tutorialspoint.com/index.htm)
 They provide a variety of media content such as videos, eBooks, and other learning materials making JavaScript much simpler.
+
+### [Scaler Topics](https://www.scaler.com/topics/javascript/)
+This JavaScript tutorial covers all the important concepts in JavaScript such as operators, loops, functions, OOPs, Asynchronous JS, and much more
